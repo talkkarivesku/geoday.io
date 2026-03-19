@@ -1,0 +1,7502 @@
+[
+  {
+    "id": "q_001",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of France?",
+    "answers": [
+      "Lyon",
+      "Marseille",
+      "Paris",
+      "Bordeaux"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Paris has been France's capital for over 1,000 years."
+  },
+  {
+    "id": "q_002",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Australia?",
+    "answers": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Canberra became Australia's capital in 1913 as a compromise between Sydney and Melbourne."
+  },
+  {
+    "id": "q_003",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Brazil?",
+    "answers": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Salvador",
+      "Brasília"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brasília replaced Rio de Janeiro as Brazil's capital in 1960."
+  },
+  {
+    "id": "q_004",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Canada?",
+    "answers": [
+      "Toronto",
+      "Vancouver",
+      "Ottawa",
+      "Montreal"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Ottawa has been Canada's capital since 1857, chosen by Queen Victoria."
+  },
+  {
+    "id": "q_005",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Japan?",
+    "answers": [
+      "Osaka",
+      "Kyoto",
+      "Hiroshima",
+      "Tokyo"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tokyo has been Japan's capital since 1869, when Emperor Meiji moved there."
+  },
+  {
+    "id": "q_006",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Germany?",
+    "answers": [
+      "Munich",
+      "Hamburg",
+      "Frankfurt",
+      "Berlin"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Berlin became the unified Germany's capital again in 1990 after reunification."
+  },
+  {
+    "id": "q_007",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Argentina?",
+    "answers": [
+      "Córdoba",
+      "Rosario",
+      "Mendoza",
+      "Buenos Aires"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Buenos Aires means 'Fair Winds' in Spanish — founded in 1536."
+  },
+  {
+    "id": "q_008",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of South Africa?",
+    "answers": [
+      "Johannesburg",
+      "Cape Town",
+      "Durban",
+      "Pretoria"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Pretoria is the executive capital. South Africa has three capitals — also Cape Town (legislative) and Bloemfontein (judicial)."
+  },
+  {
+    "id": "q_009",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Egypt?",
+    "answers": [
+      "Alexandria",
+      "Luxor",
+      "Giza",
+      "Cairo"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Cairo is Africa's largest city with over 20 million people in its metro area."
+  },
+  {
+    "id": "q_010",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Mexico?",
+    "answers": [
+      "Guadalajara",
+      "Monterrey",
+      "Puebla",
+      "Mexico City"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mexico City is one of the world's largest cities, built on the ruins of Tenochtitlan."
+  },
+  {
+    "id": "q_011",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of India?",
+    "answers": [
+      "Mumbai",
+      "Kolkata",
+      "Chennai",
+      "New Delhi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "New Delhi was designed by British architect Edwin Lutyens and became capital in 1931."
+  },
+  {
+    "id": "q_012",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of China?",
+    "answers": [
+      "Shanghai",
+      "Guangzhou",
+      "Chengdu",
+      "Beijing"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Beijing has served as China's capital for most of the last 700 years."
+  },
+  {
+    "id": "q_013",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Russia?",
+    "answers": [
+      "St. Petersburg",
+      "Vladivostok",
+      "Novosibirsk",
+      "Moscow"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Moscow has been Russia's capital since 1918, and before that from 1328 to 1712."
+  },
+  {
+    "id": "q_014",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Nigeria?",
+    "answers": [
+      "Lagos",
+      "Kano",
+      "Ibadan",
+      "Abuja"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Abuja replaced Lagos as Nigeria's capital in 1991, chosen for its central location."
+  },
+  {
+    "id": "q_015",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of South Korea?",
+    "answers": [
+      "Busan",
+      "Incheon",
+      "Daegu",
+      "Seoul"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Seoul is home to about half of South Korea's total population."
+  },
+  {
+    "id": "q_016",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Turkey?",
+    "answers": [
+      "Istanbul",
+      "Izmir",
+      "Bursa",
+      "Ankara"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Ankara became Turkey's capital in 1923 when Atatürk founded the modern republic."
+  },
+  {
+    "id": "q_017",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Spain?",
+    "answers": [
+      "Barcelona",
+      "Valencia",
+      "Seville",
+      "Madrid"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Madrid became Spain's capital in 1561 under King Philip II."
+  },
+  {
+    "id": "q_018",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Italy?",
+    "answers": [
+      "Milan",
+      "Naples",
+      "Florence",
+      "Rome"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Rome has been Italy's capital since 1871 and was the centre of the Roman Empire."
+  },
+  {
+    "id": "q_019",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Poland?",
+    "answers": [
+      "Kraków",
+      "Gdańsk",
+      "Wrocław",
+      "Warsaw"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Warsaw is also known as the 'Phoenix City' — rebuilt after being almost completely destroyed in WWII."
+  },
+  {
+    "id": "q_020",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Saudi Arabia?",
+    "answers": [
+      "Jeddah",
+      "Mecca",
+      "Medina",
+      "Riyadh"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Riyadh means 'The Gardens' in Arabic — it sits in the heart of the Arabian Peninsula."
+  },
+  {
+    "id": "q_021",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Iran?",
+    "answers": [
+      "Isfahan",
+      "Tabriz",
+      "Shiraz",
+      "Tehran"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tehran became Iran's capital in 1796 under the Qajar dynasty."
+  },
+  {
+    "id": "q_022",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Indonesia?",
+    "answers": [
+      "Surabaya",
+      "Bandung",
+      "Medan",
+      "Jakarta"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Indonesia is actually moving its capital to Nusantara on Borneo, expected in 2045."
+  },
+  {
+    "id": "q_023",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Pakistan?",
+    "answers": [
+      "Karachi",
+      "Lahore",
+      "Peshawar",
+      "Islamabad"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Islamabad replaced Karachi as Pakistan's capital in 1966 — purpose-built from scratch."
+  },
+  {
+    "id": "q_024",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Ukraine?",
+    "answers": [
+      "Kharkiv",
+      "Lviv",
+      "Odesa",
+      "Kyiv"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kyiv is one of Europe's oldest cities, founded in the 5th century AD."
+  },
+  {
+    "id": "q_025",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Kenya?",
+    "answers": [
+      "Mombasa",
+      "Kisumu",
+      "Nakuru",
+      "Nairobi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Nairobi was founded in 1899 as a railway camp during the construction of the Uganda Railway."
+  },
+  {
+    "id": "q_026",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Ethiopia?",
+    "answers": [
+      "Dire Dawa",
+      "Gondar",
+      "Hawassa",
+      "Addis Ababa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Addis Ababa means 'New Flower' in Amharic and is the seat of the African Union."
+  },
+  {
+    "id": "q_027",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Morocco?",
+    "answers": [
+      "Casablanca",
+      "Marrakech",
+      "Fez",
+      "Rabat"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Rabat has been Morocco's capital since 1912 — Casablanca is the largest city but not the capital."
+  },
+  {
+    "id": "q_028",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Thailand?",
+    "answers": [
+      "Chiang Mai",
+      "Pattaya",
+      "Phuket",
+      "Bangkok"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Bangkok's full ceremonial name is the longest place name in the world at 168 characters."
+  },
+  {
+    "id": "q_029",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Vietnam?",
+    "answers": [
+      "Ho Chi Minh City",
+      "Da Nang",
+      "Hue",
+      "Hanoi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Hanoi has been Vietnam's capital since 1010, though Ho Chi Minh City is larger."
+  },
+  {
+    "id": "q_030",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Sweden?",
+    "answers": [
+      "Gothenburg",
+      "Malmö",
+      "Uppsala",
+      "Stockholm"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Stockholm was founded in 1252 and is built across 14 islands."
+  },
+  {
+    "id": "q_031",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Norway?",
+    "answers": [
+      "Bergen",
+      "Trondheim",
+      "Stavanger",
+      "Oslo"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Oslo has been Norway's capital since 1814 and was called Christiania from 1624 to 1925."
+  },
+  {
+    "id": "q_032",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Finland?",
+    "answers": [
+      "Tampere",
+      "Turku",
+      "Oulu",
+      "Helsinki"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Helsinki became Finland's capital in 1812, replacing Turku at Russia's request."
+  },
+  {
+    "id": "q_033",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Denmark?",
+    "answers": [
+      "Aarhus",
+      "Odense",
+      "Aalborg",
+      "Copenhagen"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Copenhagen has been Denmark's capital since the early 15th century."
+  },
+  {
+    "id": "q_034",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Netherlands?",
+    "answers": [
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Amsterdam"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Amsterdam is the constitutional capital but The Hague is the seat of government."
+  },
+  {
+    "id": "q_035",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Belgium?",
+    "answers": [
+      "Bruges",
+      "Ghent",
+      "Antwerp",
+      "Brussels"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brussels is also the de facto capital of the European Union."
+  },
+  {
+    "id": "q_036",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Switzerland?",
+    "answers": [
+      "Geneva",
+      "Zurich",
+      "Basel",
+      "Bern"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Bern is Switzerland's federal city — Switzerland technically has no official 'capital'."
+  },
+  {
+    "id": "q_037",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Austria?",
+    "answers": [
+      "Graz",
+      "Linz",
+      "Salzburg",
+      "Vienna"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Vienna was the capital of the Habsburg Empire for 600 years."
+  },
+  {
+    "id": "q_038",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Portugal?",
+    "answers": [
+      "Porto",
+      "Faro",
+      "Coimbra",
+      "Lisbon"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Lisbon is one of Europe's oldest cities and the westernmost capital of continental Europe."
+  },
+  {
+    "id": "q_039",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Greece?",
+    "answers": [
+      "Thessaloniki",
+      "Patras",
+      "Heraklion",
+      "Athens"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Athens has been continuously inhabited for over 3,000 years."
+  },
+  {
+    "id": "q_040",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Romania?",
+    "answers": [
+      "Cluj-Napoca",
+      "Timișoara",
+      "Iași",
+      "Bucharest"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Bucharest is known as the 'Little Paris of the East' for its Belle Époque architecture."
+  },
+  {
+    "id": "q_041",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Hungary?",
+    "answers": [
+      "Debrecen",
+      "Miskolc",
+      "Pécs",
+      "Budapest"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Budapest was formed in 1873 by merging Buda, Óbuda, and Pest across the Danube."
+  },
+  {
+    "id": "q_042",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Czech Republic?",
+    "answers": [
+      "Brno",
+      "Ostrava",
+      "Plzeň",
+      "Prague"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Prague Castle is the largest ancient castle complex in the world."
+  },
+  {
+    "id": "q_043",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Kazakhstan?",
+    "answers": [
+      "Almaty",
+      "Shymkent",
+      "Aktobe",
+      "Astana"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Astana (formerly Nur-Sultan) replaced Almaty as Kazakhstan's capital in 1997."
+  },
+  {
+    "id": "q_044",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of New Zealand?",
+    "answers": [
+      "Auckland",
+      "Christchurch",
+      "Dunedin",
+      "Wellington"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Wellington has been New Zealand's capital since 1865 — Auckland is the largest city."
+  },
+  {
+    "id": "q_045",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Peru?",
+    "answers": [
+      "Arequipa",
+      "Trujillo",
+      "Cusco",
+      "Lima"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Lima was founded by Spanish conquistador Francisco Pizarro in 1535."
+  },
+  {
+    "id": "q_046",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Colombia?",
+    "answers": [
+      "Medellín",
+      "Cali",
+      "Barranquilla",
+      "Bogotá"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Bogotá sits at 2,600m above sea level — one of the world's highest capital cities."
+  },
+  {
+    "id": "q_047",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Chile?",
+    "answers": [
+      "Valparaíso",
+      "Concepción",
+      "Antofagasta",
+      "Santiago"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Santiago is home to about 40% of Chile's entire population."
+  },
+  {
+    "id": "q_048",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Philippines?",
+    "answers": [
+      "Cebu",
+      "Davao",
+      "Quezon City",
+      "Manila"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Manila is one of the most densely populated cities on Earth."
+  },
+  {
+    "id": "q_049",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Malaysia?",
+    "answers": [
+      "Johor Bahru",
+      "Penang",
+      "Kota Kinabalu",
+      "Kuala Lumpur"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kuala Lumpur means 'Muddy Confluence' in Malay — it grew from a tin-mining settlement."
+  },
+  {
+    "id": "q_050",
+    "category": "Capital city",
+    "difficulty": "beginner",
+    "question": "What is the capital of Singapore?",
+    "answers": [
+      "Jurong",
+      "Changi",
+      "Woodlands",
+      "Singapore City"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Singapore is a city-state — the entire country is essentially one city."
+  },
+  {
+    "id": "q_051",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Bangladesh?",
+    "answers": [
+      "Chittagong",
+      "Sylhet",
+      "Rajshahi",
+      "Dhaka"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Dhaka is one of the world's most densely populated cities with over 22 million people."
+  },
+  {
+    "id": "q_052",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Sri Lanka?",
+    "answers": [
+      "Galle",
+      "Kandy",
+      "Jaffna",
+      "Sri Jayawardenepura Kotte"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sri Jayawardenepura Kotte is the legislative capital; Colombo is the commercial capital."
+  },
+  {
+    "id": "q_053",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Myanmar?",
+    "answers": [
+      "Yangon",
+      "Mandalay",
+      "Bagan",
+      "Naypyidaw"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Naypyidaw replaced Yangon as Myanmar's capital in 2006 in a surprise government move."
+  },
+  {
+    "id": "q_054",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Ghana?",
+    "answers": [
+      "Kumasi",
+      "Tamale",
+      "Sekondi",
+      "Accra"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Accra became Ghana's capital under British colonial rule and remained so after independence in 1957."
+  },
+  {
+    "id": "q_055",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Tanzania?",
+    "answers": [
+      "Dar es Salaam",
+      "Mwanza",
+      "Arusha",
+      "Dodoma"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Dodoma is Tanzania's official capital since 1996, but Dar es Salaam remains the largest city."
+  },
+  {
+    "id": "q_056",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Zimbabwe?",
+    "answers": [
+      "Bulawayo",
+      "Mutare",
+      "Gweru",
+      "Harare"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Harare was called Salisbury during British colonial rule, renamed in 1982."
+  },
+  {
+    "id": "q_057",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Senegal?",
+    "answers": [
+      "Touba",
+      "Thiès",
+      "Kaolack",
+      "Dakar"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Dakar is the westernmost point of continental Africa."
+  },
+  {
+    "id": "q_058",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Ivory Coast?",
+    "answers": [
+      "Abidjan",
+      "Bouaké",
+      "Daloa",
+      "Yamoussoukro"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Yamoussoukro is the official capital but Abidjan remains the economic and administrative centre."
+  },
+  {
+    "id": "q_059",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Cuba?",
+    "answers": [
+      "Santiago de Cuba",
+      "Camagüey",
+      "Holguín",
+      "Havana"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Havana was founded in 1519 and is famous for its preserved colonial architecture."
+  },
+  {
+    "id": "q_060",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Jamaica?",
+    "answers": [
+      "Montego Bay",
+      "Ocho Rios",
+      "Portmore",
+      "Kingston"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kingston has been Jamaica's capital since 1872."
+  },
+  {
+    "id": "q_061",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Iceland?",
+    "answers": [
+      "Akureyri",
+      "Keflavík",
+      "Selfoss",
+      "Reykjavík"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Reykjavík is the world's northernmost national capital."
+  },
+  {
+    "id": "q_062",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Ireland?",
+    "answers": [
+      "Cork",
+      "Galway",
+      "Limerick",
+      "Dublin"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Dublin was founded by Vikings in 841 AD."
+  },
+  {
+    "id": "q_063",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Croatia?",
+    "answers": [
+      "Split",
+      "Rijeka",
+      "Osijek",
+      "Zagreb"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Zagreb has been Croatia's capital since 1776."
+  },
+  {
+    "id": "q_064",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Serbia?",
+    "answers": [
+      "Novi Sad",
+      "Niš",
+      "Subotica",
+      "Belgrade"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Belgrade means 'White City' in Serbian and sits at the confluence of the Sava and Danube rivers."
+  },
+  {
+    "id": "q_065",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Slovakia?",
+    "answers": [
+      "Košice",
+      "Prešov",
+      "Žilina",
+      "Bratislava"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Bratislava sits on the Danube, bordering both Austria and Hungary."
+  },
+  {
+    "id": "q_066",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Slovenia?",
+    "answers": [
+      "Maribor",
+      "Celje",
+      "Kranj",
+      "Ljubljana"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Ljubljana's name may derive from a Slavic root meaning 'beloved'."
+  },
+  {
+    "id": "q_067",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Estonia?",
+    "answers": [
+      "Tartu",
+      "Narva",
+      "Pärnu",
+      "Tallinn"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tallinn's medieval old town is a UNESCO World Heritage Site."
+  },
+  {
+    "id": "q_068",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Latvia?",
+    "answers": [
+      "Daugavpils",
+      "Liepāja",
+      "Jelgava",
+      "Riga"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Riga is the largest city in the Baltic states."
+  },
+  {
+    "id": "q_069",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Lithuania?",
+    "answers": [
+      "Kaunas",
+      "Klaipėda",
+      "Šiauliai",
+      "Vilnius"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Vilnius has one of the largest medieval old towns in Northern Europe."
+  },
+  {
+    "id": "q_070",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Belarus?",
+    "answers": [
+      "Hrodna",
+      "Homiel",
+      "Brest",
+      "Minsk"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Minsk was almost completely destroyed in WWII and rebuilt in Stalinist architectural style."
+  },
+  {
+    "id": "q_071",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Moldova?",
+    "answers": [
+      "Tiraspol",
+      "Bălți",
+      "Bender",
+      "Chișinău"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Chișinău is one of the greenest capitals in Europe, with many parks and tree-lined streets."
+  },
+  {
+    "id": "q_072",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Georgia (country)?",
+    "answers": [
+      "Batumi",
+      "Kutaisi",
+      "Rustavi",
+      "Tbilisi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tbilisi was founded in the 5th century and its name means 'warm location'."
+  },
+  {
+    "id": "q_073",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Armenia?",
+    "answers": [
+      "Gyumri",
+      "Vanadzor",
+      "Vagharshapat",
+      "Yerevan"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Yerevan is one of the world's oldest continuously inhabited cities, founded in 782 BC."
+  },
+  {
+    "id": "q_074",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Azerbaijan?",
+    "answers": [
+      "Ganja",
+      "Sumqayit",
+      "Lankaran",
+      "Baku"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Baku sits below sea level on the Caspian Sea and is a major oil-producing city."
+  },
+  {
+    "id": "q_075",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Uzbekistan?",
+    "answers": [
+      "Samarkand",
+      "Bukhara",
+      "Namangan",
+      "Tashkent"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tashkent became the USSR's fourth largest city and was almost destroyed by an earthquake in 1966."
+  },
+  {
+    "id": "q_076",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Nepal?",
+    "answers": [
+      "Pokhara",
+      "Lalitpur",
+      "Bhaktapur",
+      "Kathmandu"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kathmandu Valley contains seven UNESCO World Heritage Sites."
+  },
+  {
+    "id": "q_077",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Afghanistan?",
+    "answers": [
+      "Kandahar",
+      "Herat",
+      "Mazar-i-Sharif",
+      "Kabul"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kabul is one of the world's fastest-growing cities and sits at 1,800m altitude."
+  },
+  {
+    "id": "q_078",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Iraq?",
+    "answers": [
+      "Basra",
+      "Mosul",
+      "Erbil",
+      "Baghdad"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Baghdad was founded in 762 AD and was once the world's largest city."
+  },
+  {
+    "id": "q_079",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Syria?",
+    "answers": [
+      "Aleppo",
+      "Homs",
+      "Latakia",
+      "Damascus"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Damascus is considered one of the oldest continuously inhabited cities in the world."
+  },
+  {
+    "id": "q_080",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Jordan?",
+    "answers": [
+      "Irbid",
+      "Zarqa",
+      "Aqaba",
+      "Amman"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Amman is built on seven hills — the same number as Rome — and was called Philadelphia in antiquity."
+  },
+  {
+    "id": "q_081",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Lebanon?",
+    "answers": [
+      "Tripoli",
+      "Sidon",
+      "Tyre",
+      "Beirut"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Beirut was known as the 'Paris of the Middle East' before its civil war."
+  },
+  {
+    "id": "q_082",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Israel?",
+    "answers": [
+      "Haifa",
+      "Tel Aviv",
+      "Eilat",
+      "Jerusalem"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Jerusalem is claimed as capital by Israel; it is not universally recognised internationally."
+  },
+  {
+    "id": "q_083",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Oman?",
+    "answers": [
+      "Salalah",
+      "Nizwa",
+      "Sur",
+      "Muscat"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Muscat sits between the Al Hajar mountains and the Gulf of Oman."
+  },
+  {
+    "id": "q_084",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Kuwait?",
+    "answers": [
+      "Salmiya",
+      "Hawalli",
+      "Farwaniya",
+      "Kuwait City"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kuwait City contains most of Kuwait's population and virtually all its government institutions."
+  },
+  {
+    "id": "q_085",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Qatar?",
+    "answers": [
+      "Al Wakrah",
+      "Al Rayyan",
+      "Umm Salal",
+      "Doha"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Doha hosted the 2022 FIFA World Cup — the first in the Middle East."
+  },
+  {
+    "id": "q_086",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of UAE?",
+    "answers": [
+      "Dubai",
+      "Sharjah",
+      "Ajman",
+      "Abu Dhabi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Abu Dhabi is the UAE's capital — Dubai is the largest city and financial hub."
+  },
+  {
+    "id": "q_087",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Bahrain?",
+    "answers": [
+      "Riffa",
+      "Muharraq",
+      "Hamad Town",
+      "Manama"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Manama has been Bahrain's capital since 1971 when the country gained independence."
+  },
+  {
+    "id": "q_088",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Yemen?",
+    "answers": [
+      "Aden",
+      "Taiz",
+      "Hodeidah",
+      "Sana'a"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sana'a's old city is a UNESCO World Heritage Site and one of the world's oldest cities."
+  },
+  {
+    "id": "q_089",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Cameroon?",
+    "answers": [
+      "Douala",
+      "Bamenda",
+      "Bafoussam",
+      "Yaoundé"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Yaoundé is Cameroon's capital while Douala is its economic heart."
+  },
+  {
+    "id": "q_090",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Angola?",
+    "answers": [
+      "Huambo",
+      "Lubango",
+      "Benguela",
+      "Luanda"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Luanda is one of Africa's most expensive cities, largely due to the oil industry."
+  },
+  {
+    "id": "q_091",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Mozambique?",
+    "answers": [
+      "Beira",
+      "Nampula",
+      "Matola",
+      "Maputo"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Maputo was called Lourenço Marques under Portuguese rule until 1976."
+  },
+  {
+    "id": "q_092",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Madagascar?",
+    "answers": [
+      "Toamasina",
+      "Antsirabe",
+      "Mahajanga",
+      "Antananarivo"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Antananarivo means 'City of Thousands' and sits at 1,400m altitude."
+  },
+  {
+    "id": "q_093",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Tunisia?",
+    "answers": [
+      "Sfax",
+      "Sousse",
+      "Kairouan",
+      "Tunis"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tunis sits next to the ruins of ancient Carthage, once Rome's greatest rival."
+  },
+  {
+    "id": "q_094",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Algeria?",
+    "answers": [
+      "Oran",
+      "Constantine",
+      "Annaba",
+      "Algiers"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Algiers is known as 'Alger la Blanche' — White Algiers — for its whitewashed buildings."
+  },
+  {
+    "id": "q_095",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Libya?",
+    "answers": [
+      "Benghazi",
+      "Misrata",
+      "Tobruk",
+      "Tripoli"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tripoli has been Libya's capital since the Ottoman period."
+  },
+  {
+    "id": "q_096",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Sudan?",
+    "answers": [
+      "Omdurman",
+      "Port Sudan",
+      "Kassala",
+      "Khartoum"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Khartoum sits at the confluence of the Blue and White Nile rivers."
+  },
+  {
+    "id": "q_097",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Uganda?",
+    "answers": [
+      "Gulu",
+      "Mbarara",
+      "Jinja",
+      "Kampala"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kampala is built on seven hills and was the seat of the Buganda Kingdom."
+  },
+  {
+    "id": "q_098",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Rwanda?",
+    "answers": [
+      "Butare",
+      "Gisenyi",
+      "Ruhengeri",
+      "Kigali"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kigali is consistently ranked as one of Africa's cleanest cities."
+  },
+  {
+    "id": "q_099",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Zambia?",
+    "answers": [
+      "Ndola",
+      "Kitwe",
+      "Livingstone",
+      "Lusaka"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Lusaka became Zambia's capital when the country gained independence in 1964."
+  },
+  {
+    "id": "q_100",
+    "category": "Capital city",
+    "difficulty": "medium",
+    "question": "What is the capital of Botswana?",
+    "answers": [
+      "Francistown",
+      "Maun",
+      "Lobatse",
+      "Gaborone"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Gaborone is one of the world's fastest-growing cities and sits near the South Africa border."
+  },
+  {
+    "id": "q_101",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Japan?",
+    "answers": [
+      "Yuan",
+      "Won",
+      "Ringgit",
+      "Yen"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Japanese Yen (¥) has been in use since 1871."
+  },
+  {
+    "id": "q_102",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in the United Kingdom?",
+    "answers": [
+      "Euro",
+      "Franc",
+      "Krona",
+      "Pound Sterling"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The British pound is the world's oldest currency still in use, over 1,200 years old."
+  },
+  {
+    "id": "q_103",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Switzerland?",
+    "answers": [
+      "Euro",
+      "Franc",
+      "Krone",
+      "Swiss Franc"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Switzerland never adopted the Euro despite being surrounded by Eurozone countries."
+  },
+  {
+    "id": "q_104",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in South Korea?",
+    "answers": [
+      "Yuan",
+      "Yen",
+      "Ringgit",
+      "Won"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The South Korean Won (KRW) has been used since 1945."
+  },
+  {
+    "id": "q_105",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Brazil?",
+    "answers": [
+      "Peso",
+      "Sol",
+      "Bolivar",
+      "Real"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Brazilian Real replaced the cruzeiro in 1994 as part of an anti-inflation plan."
+  },
+  {
+    "id": "q_106",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in India?",
+    "answers": [
+      "Taka",
+      "Rupiah",
+      "Lira",
+      "Rupee"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Indian Rupee (₹) symbol was officially adopted in 2010."
+  },
+  {
+    "id": "q_107",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Russia?",
+    "answers": [
+      "Hryvnia",
+      "Lira",
+      "Zloty",
+      "Ruble"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Russian Ruble is one of the world's oldest currencies, dating to the 13th century."
+  },
+  {
+    "id": "q_108",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in China?",
+    "answers": [
+      "Won",
+      "Yen",
+      "Baht",
+      "Renminbi (Yuan)"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Renminbi means 'People's Currency' — Yuan is the main unit. Symbol: ¥ or 元."
+  },
+  {
+    "id": "q_109",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Saudi Arabia?",
+    "answers": [
+      "Dinar",
+      "Dirham",
+      "Riyal",
+      "Toman"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Saudi Riyal has been pegged to the US Dollar since 1986."
+  },
+  {
+    "id": "q_110",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Turkey?",
+    "answers": [
+      "Drachma",
+      "Lev",
+      "Forint",
+      "Lira"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Turkish Lira replaced the Ottoman Lira in 1923. The 'new' Lira was introduced in 2005."
+  },
+  {
+    "id": "q_111",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Poland?",
+    "answers": [
+      "Crown",
+      "Kuna",
+      "Forint",
+      "Złoty"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Polish Złoty (PLN) has been Poland's currency since 1924."
+  },
+  {
+    "id": "q_112",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Mexico?",
+    "answers": [
+      "Dollar",
+      "Quetzal",
+      "Bolivar",
+      "Peso"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Mexican Peso is one of the first currencies in the world to use the $ symbol."
+  },
+  {
+    "id": "q_113",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Norway?",
+    "answers": [
+      "Euro",
+      "Krone",
+      "Kroon",
+      "Øre"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Norwegian Krone (NOK) — Norway chose not to join the Eurozone."
+  },
+  {
+    "id": "q_114",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Sweden?",
+    "answers": [
+      "Euro",
+      "Krone",
+      "Krona",
+      "Öre"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Sweden uses the Krona (SEK). In a 2003 referendum, Swedes voted against joining the Eurozone."
+  },
+  {
+    "id": "q_115",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Denmark?",
+    "answers": [
+      "Euro",
+      "Krone",
+      "Krona",
+      "Øre"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Danish Krone (DKK) — Denmark has an opt-out from the Euro."
+  },
+  {
+    "id": "q_116",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Egypt?",
+    "answers": [
+      "Dinar",
+      "Dirham",
+      "Piaster",
+      "Egyptian Pound"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Egyptian Pound dates back to 1834 and is subdivided into 100 piasters."
+  },
+  {
+    "id": "q_117",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Nigeria?",
+    "answers": [
+      "Cedi",
+      "Franc",
+      "Shilling",
+      "Naira"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Nigerian Naira replaced the Pound in 1973 after the country decimalised."
+  },
+  {
+    "id": "q_118",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Kenya?",
+    "answers": [
+      "Naira",
+      "Franc",
+      "Cedi",
+      "Shilling"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kenya, Uganda, and Tanzania all use currencies called Shillings, though they're separate."
+  },
+  {
+    "id": "q_119",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in South Africa?",
+    "answers": [
+      "Kwacha",
+      "Pula",
+      "Lilangeni",
+      "Rand"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The South African Rand (ZAR) is named after the Witwatersrand gold-bearing reef."
+  },
+  {
+    "id": "q_120",
+    "category": "Currency",
+    "difficulty": "beginner",
+    "question": "What currency is used in Morocco?",
+    "answers": [
+      "Dinar",
+      "Franc",
+      "Pound",
+      "Dirham"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Moroccan Dirham (MAD) replaced the Franc in 1960."
+  },
+  {
+    "id": "q_121",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Indonesia?",
+    "answers": [
+      "Baht",
+      "Peso",
+      "Ringgit",
+      "Rupiah"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Indonesia's Rupiah was introduced in 1946 — the word derives from Sanskrit for 'silver'."
+  },
+  {
+    "id": "q_122",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Thailand?",
+    "answers": [
+      "Kyat",
+      "Dong",
+      "Ringgit",
+      "Baht"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Thai Baht is one of Asia's most stable currencies and has been used since 1897."
+  },
+  {
+    "id": "q_123",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Malaysia?",
+    "answers": [
+      "Baht",
+      "Dong",
+      "Rupiah",
+      "Ringgit"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Ringgit means 'jagged' in Malay, referring to the serrated edges of old Spanish silver coins."
+  },
+  {
+    "id": "q_124",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Vietnam?",
+    "answers": [
+      "Baht",
+      "Riel",
+      "Kip",
+      "Dong"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Vietnamese Dong (VND) is one of the lowest-valued currencies — 1 USD ≈ 25,000 VND."
+  },
+  {
+    "id": "q_125",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Argentina?",
+    "answers": [
+      "Real",
+      "Sol",
+      "Bolivar",
+      "Peso"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Argentina has had multiple currency crises — the Peso has been reissued several times."
+  },
+  {
+    "id": "q_126",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Colombia?",
+    "answers": [
+      "Real",
+      "Bolivar",
+      "Sol",
+      "Peso"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Colombian Peso (COP) has been in use since 1837."
+  },
+  {
+    "id": "q_127",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Chile?",
+    "answers": [
+      "Real",
+      "Bolivar",
+      "Sol",
+      "Peso"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Chilean Peso replaced the Escudo in 1975."
+  },
+  {
+    "id": "q_128",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Peru?",
+    "answers": [
+      "Peso",
+      "Bolivar",
+      "Real",
+      "Sol"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Peruvian Sol replaced the Inti in 1991. Sol means 'sun' in Spanish."
+  },
+  {
+    "id": "q_129",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What currency is used in Philippines?",
+    "answers": [
+      "Rupiah",
+      "Ringgit",
+      "Baht",
+      "Peso"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Philippine Peso (PHP) was introduced in 1852 during Spanish colonial rule."
+  },
+  {
+    "id": "q_130",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "Which of these countries does NOT use the Euro?",
+    "answers": [
+      "Portugal",
+      "Finland",
+      "Bulgaria",
+      "Slovakia"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Bulgaria uses the Lev (BGN). It is an EU member but has not yet joined the Eurozone."
+  },
+  {
+    "id": "q_131",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "Which two countries share the East Caribbean Dollar?",
+    "answers": [
+      "Barbados and Jamaica",
+      "Trinidad and Haiti",
+      "Grenada and Antigua",
+      "Cuba and Dominican Republic"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The East Caribbean Dollar is used by 8 island nations including Grenada, Antigua, and St Lucia."
+  },
+  {
+    "id": "q_132",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Israel?",
+    "answers": [
+      "Shekel",
+      "Dinar",
+      "Lira",
+      "Pound"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "The Israeli New Shekel (ILS) replaced the old Shekel in 1986. Symbol: ₪."
+  },
+  {
+    "id": "q_133",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Iran?",
+    "answers": [
+      "Dinar",
+      "Riyal",
+      "Toman",
+      "Dirham"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Iranian Rial (IRR) is one of the world's lowest-valued currencies. Iranians informally use 'Toman' = 10 Rials."
+  },
+  {
+    "id": "q_134",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Pakistan?",
+    "answers": [
+      "Taka",
+      "Rupiah",
+      "Afghani",
+      "Rupee"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Pakistani Rupee (PKR) has been used since the country's independence in 1947."
+  },
+  {
+    "id": "q_135",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Bangladesh?",
+    "answers": [
+      "Rupee",
+      "Kyat",
+      "Kip",
+      "Taka"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Bangladeshi Taka replaced the Pakistani Rupee after independence in 1971."
+  },
+  {
+    "id": "q_136",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Ghana?",
+    "answers": [
+      "Naira",
+      "Franc",
+      "Shilling",
+      "Cedi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Ghanaian Cedi (GHS) — 'Cedi' comes from the Akan word for cowrie shell, once used as currency."
+  },
+  {
+    "id": "q_137",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Ethiopia?",
+    "answers": [
+      "Shilling",
+      "Franc",
+      "Cedi",
+      "Birr"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Ethiopian Birr has been used since 1945. 'Birr' means 'silver' in Amharic."
+  },
+  {
+    "id": "q_138",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Hungary?",
+    "answers": [
+      "Kuna",
+      "Zloty",
+      "Lev",
+      "Forint"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Hungary uses the Forint (HUF) — it has chosen not to adopt the Euro despite being an EU member."
+  },
+  {
+    "id": "q_139",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of Czech Republic?",
+    "answers": [
+      "Forint",
+      "Zloty",
+      "Lev",
+      "Koruna"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Czech Koruna (CZK) replaced the Czechoslovak Koruna in 1993 after the country split."
+  },
+  {
+    "id": "q_140",
+    "category": "Currency",
+    "difficulty": "medium",
+    "question": "What is the currency of New Zealand?",
+    "answers": [
+      "Australian Dollar",
+      "Pound",
+      "Franc",
+      "New Zealand Dollar"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The New Zealand Dollar (NZD) replaced the Pound in 1967 when NZ decimalised."
+  },
+  {
+    "id": "q_141",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country has a red circle on a white background?",
+    "answers": [
+      "South Korea",
+      "Japan",
+      "China",
+      "Singapore"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Japan's Nisshōki — the red sun disc — has been in use since the 7th century."
+  },
+  {
+    "id": "q_142",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country's flag has a maple leaf?",
+    "answers": [
+      "Australia",
+      "New Zealand",
+      "Canada",
+      "UK"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Canada's red and white flag with red maple leaf was adopted on 15 February 1965."
+  },
+  {
+    "id": "q_143",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What are the three colours of the Italian flag?",
+    "answers": [
+      "Red, White, Blue",
+      "Yellow, Black, Red",
+      "Blue, White, Green",
+      "Green, White, Red"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Italy's vertical tricolour — green, white, red — was adopted in 1797."
+  },
+  {
+    "id": "q_144",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What colour is the cross on Finland's flag?",
+    "answers": [
+      "White",
+      "Red",
+      "Black",
+      "Blue"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Finland's flag shows a blue Nordic cross on white background — adopted in 1918."
+  },
+  {
+    "id": "q_145",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country has a flag with a cedar tree?",
+    "answers": [
+      "Syria",
+      "Lebanon",
+      "Jordan",
+      "Saudi Arabia"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Lebanon's flag features the Cedar of Lebanon, a symbol of immortality and steadiness."
+  },
+  {
+    "id": "q_146",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What colour are the stars on the Brazilian flag?",
+    "answers": [
+      "Yellow",
+      "White",
+      "Blue",
+      "Gold"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The 27 white stars on Brazil's blue circle represent the 26 states and the Federal District."
+  },
+  {
+    "id": "q_147",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which is the only national flag that is not rectangular?",
+    "answers": [
+      "Bhutan",
+      "Vatican City",
+      "Switzerland",
+      "Nepal"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Nepal's flag consists of two stacked pennants — the only non-rectangular national flag."
+  },
+  {
+    "id": "q_148",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country has a flag that is a perfect square?",
+    "answers": [
+      "France",
+      "Liechtenstein",
+      "Switzerland",
+      "Austria"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Switzerland's flag is a perfect square — one of only two square national flags (Vatican is the other)."
+  },
+  {
+    "id": "q_149",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What colour is the background of the Japanese flag?",
+    "answers": [
+      "Red",
+      "Blue",
+      "Yellow",
+      "White"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Japan's flag (Hinomaru) is a red circle on a white background."
+  },
+  {
+    "id": "q_150",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country's flag features the Union Jack in the corner AND stars?",
+    "answers": [
+      "New Zealand",
+      "Ireland",
+      "Canada",
+      "India"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "New Zealand's flag has the Union Jack plus four red stars of the Southern Cross on blue."
+  },
+  {
+    "id": "q_151",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What are the Pan-African colours used on many African flags?",
+    "answers": [
+      "Blue, White, Green",
+      "Red, White, Blue",
+      "Red, Black, Green",
+      "Yellow, Green, Blue"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Red, Black, and Green were chosen by Marcus Garvey's Pan-African movement in 1920."
+  },
+  {
+    "id": "q_152",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country's flag is all red with a yellow star?",
+    "answers": [
+      "China",
+      "Vietnam",
+      "Myanmar",
+      "Laos"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Vietnam's flag — a yellow star on red — has been used since 1955."
+  },
+  {
+    "id": "q_153",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What animal appears on the Mexican flag?",
+    "answers": [
+      "Jaguar",
+      "Eagle",
+      "Condor",
+      "Quetzal"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Mexico's coat of arms shows an eagle devouring a serpent on a cactus — from an Aztec legend."
+  },
+  {
+    "id": "q_154",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which Scandinavian country has a red flag with a white cross?",
+    "answers": [
+      "Norway",
+      "Sweden",
+      "Finland",
+      "Denmark"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Denmark's Dannebrog — white cross on red — is one of the world's oldest national flags, dating to 1219."
+  },
+  {
+    "id": "q_155",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What are the colours of the German flag?",
+    "answers": [
+      "Red, White, Blue",
+      "Black, Red, Gold",
+      "Blue, White, Red",
+      "Green, White, Red"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Germany's tricolour — black, red, gold — was adopted by the Frankfurt Parliament in 1848."
+  },
+  {
+    "id": "q_156",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country has a green flag with a white crescent and star?",
+    "answers": [
+      "Turkey",
+      "Iran",
+      "Saudi Arabia",
+      "Pakistan"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Pakistan's flag — dark green with a white crescent and star — adopted in 1947 at independence."
+  },
+  {
+    "id": "q_157",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What is written on Brazil's flag?",
+    "answers": [
+      "Paz e Amor",
+      "União e Força",
+      "Ordem e Progresso",
+      "Terra e Liberdade"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "'Ordem e Progresso' means Order and Progress in Portuguese — from Auguste Comte's positivism."
+  },
+  {
+    "id": "q_158",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What colour is the background of the South Korean flag?",
+    "answers": [
+      "Red",
+      "Blue",
+      "Yellow",
+      "White"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "South Korea's Taegukgi has a white background with the Taiji symbol and four trigrams."
+  },
+  {
+    "id": "q_159",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country's flag has the Sun of May?",
+    "answers": [
+      "Chile",
+      "Bolivia",
+      "Peru",
+      "Argentina"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Argentina's flag features the 'Sol de Mayo' — a sun with a human face — adopted in 1818."
+  },
+  {
+    "id": "q_160",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What are the colours of the Dutch flag?",
+    "answers": [
+      "Blue, White, Red",
+      "Red, White, Blue",
+      "Orange, White, Blue",
+      "Red, Blue, White"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Netherlands flag — red, white, blue — is one of the oldest tricolours, dating to 1572."
+  },
+  {
+    "id": "q_161",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which African country has a flag with a white star on blue and red?",
+    "answers": [
+      "Morocco",
+      "Algeria",
+      "Libya",
+      "Liberia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Liberia's flag — stripes of red and white with a blue canton and white star — modelled on the US flag."
+  },
+  {
+    "id": "q_162",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What colour is the cross on the Swedish flag?",
+    "answers": [
+      "White",
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sweden's flag — a yellow/gold Nordic cross on blue — dates from at least the 16th century."
+  },
+  {
+    "id": "q_163",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "What animal is on Australia's coat of arms (also seen on official use)?",
+    "answers": [
+      "Emu and Kangaroo",
+      "Kangaroo and Koala",
+      "Eagle and Snake",
+      "Platypus and Wombat"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Australia's coat of arms features the kangaroo and emu — both cannot walk backwards, symbolising forward progress."
+  },
+  {
+    "id": "q_164",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "How many stripes are on the US flag?",
+    "answers": [
+      "50",
+      "48",
+      "13",
+      "25"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The 13 stripes represent the original 13 colonies. The 50 stars represent the 50 states."
+  },
+  {
+    "id": "q_165",
+    "category": "Flag",
+    "difficulty": "beginner",
+    "question": "Which country has a flag featuring an AK-47 rifle?",
+    "answers": [
+      "Zimbabwe",
+      "Angola",
+      "Mozambique",
+      "Eritrea"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Mozambique's flag features an AK-47 with a bayonet — the only national flag with a modern assault rifle."
+  },
+  {
+    "id": "q_166",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What three colours appear on the Russian flag?",
+    "answers": [
+      "Red, Blue, White",
+      "Red, White, Blue",
+      "Blue, White, Red",
+      "White, Blue, Red"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Russia's white-blue-red tricolour was introduced by Peter the Great in 1699, inspired by the Dutch flag."
+  },
+  {
+    "id": "q_167",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country's flag has a red maple leaf?",
+    "answers": [
+      "Denmark",
+      "Norway",
+      "Canada",
+      "Wales"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Canada's maple leaf flag was adopted on 15 February 1965 after a national competition."
+  },
+  {
+    "id": "q_168",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What is on the centre of the Saudi Arabian flag?",
+    "answers": [
+      "Moon and star",
+      "Crossed swords",
+      "Shahada and sword",
+      "Palm tree"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Saudi Arabia's flag bears the Shahada (Islamic creed) in white and a sword on green."
+  },
+  {
+    "id": "q_169",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country has a dragon on its flag?",
+    "answers": [
+      "Japan",
+      "China",
+      "Bhutan",
+      "Mongolia"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Bhutan's orange and yellow flag features the Druk (Thunder Dragon), giving Bhutan its local name 'Druk Yul'."
+  },
+  {
+    "id": "q_170",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What colour is on Jamaica's flag in the X pattern?",
+    "answers": [
+      "Red and White",
+      "Black and Green",
+      "Yellow and Green",
+      "Blue and White"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Jamaica's flag has a gold/yellow diagonal cross (saltire) with black and green triangles."
+  },
+  {
+    "id": "q_171",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country has a completely green flag with Arabic script?",
+    "answers": [
+      "Iran",
+      "Libya",
+      "Saudi Arabia",
+      "Algeria"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Libya used a plain green flag from 1977 to 2011 under Gaddafi — the world's only single-colour national flag."
+  },
+  {
+    "id": "q_172",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What do the five rings on the Olympic flag represent?",
+    "answers": [
+      "Five sports",
+      "Five record holders",
+      "Five oceans",
+      "Five continents"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The five rings represent the five inhabited continents — Africa, Americas, Asia, Europe, Oceania."
+  },
+  {
+    "id": "q_173",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which colour appears on BOTH the French and Dutch flags?",
+    "answers": [
+      "Green",
+      "Yellow",
+      "Red, White, and Blue",
+      "Black"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Both France (blue, white, red vertical) and Netherlands (red, white, blue horizontal) use the same three colours."
+  },
+  {
+    "id": "q_174",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which South American country has the same flag colours as Colombia and Venezuela?",
+    "answers": [
+      "Chile",
+      "Argentina",
+      "Ecuador",
+      "Peru"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Ecuador, Colombia, and Venezuela all use yellow, blue, and red — legacy of Gran Colombia."
+  },
+  {
+    "id": "q_175",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What is the colour of the crescent and star on the Turkish flag?",
+    "answers": [
+      "Gold",
+      "Red",
+      "White",
+      "Silver"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Turkey's flag is a white crescent and star on a red background — adopted in 1844."
+  },
+  {
+    "id": "q_176",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country's flag has the most colours?",
+    "answers": [
+      "Brazil",
+      "South Africa",
+      "Seychelles",
+      "Belize"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Seychelles' flag has five coloured rays of blue, yellow, red, white, and green — the most colours in a national flag."
+  },
+  {
+    "id": "q_177",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What animal features on New Zealand's coat of arms but NOT on its flag?",
+    "answers": [
+      "Kiwi",
+      "Fern",
+      "Kea",
+      "Moa"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "The kiwi appears on NZ's coat of arms. The flag has the Southern Cross stars and the Union Jack."
+  },
+  {
+    "id": "q_178",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which flag has a red stripe at top, white in middle, and black at bottom?",
+    "answers": [
+      "Germany",
+      "Belgium",
+      "Egypt",
+      "Kuwait"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Germany's flag — black, red, gold — not red/white/black. Kuwait has green, white, red, black. Egypt: red, white, black."
+  },
+  {
+    "id": "q_179",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What appears in the centre of India's national flag?",
+    "answers": [
+      "Sun",
+      "Star",
+      "Lotus",
+      "Wheel"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "India's flag has a navy blue Ashoka Chakra (wheel with 24 spokes) on a white band between saffron and green."
+  },
+  {
+    "id": "q_180",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which European country has red, white, and blue colours arranged horizontally?",
+    "answers": [
+      "France",
+      "Luxembourg",
+      "Netherlands",
+      "Monaco"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Netherlands flag is horizontal red-white-blue. France is vertical. Luxembourg looks similar but lighter blue."
+  },
+  {
+    "id": "q_181",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What is unique about the Swiss and Vatican flags compared to all other national flags?",
+    "answers": [
+      "They're circular",
+      "They're square",
+      "They're triangular",
+      "They have no borders"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Switzerland and Vatican City are the only countries with square national flags."
+  },
+  {
+    "id": "q_182",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which Nordic country's flag does NOT have a cross?",
+    "answers": [
+      "Iceland",
+      "Denmark",
+      "Finland",
+      "None — all have crosses"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "All five Nordic countries (Denmark, Finland, Iceland, Norway, Sweden) have the Nordic cross on their flags."
+  },
+  {
+    "id": "q_183",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What colour is the background of Pakistan's flag?",
+    "answers": [
+      "White",
+      "Light blue",
+      "Black",
+      "Dark green"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Pakistan's flag is predominantly dark green with a white vertical stripe on the left."
+  },
+  {
+    "id": "q_184",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country has a flag with three equal horizontal bands of black, red, and gold?",
+    "answers": [
+      "Austria",
+      "Belgium",
+      "Germany",
+      "Switzerland"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Germany's federal flag is black (top), red (middle), gold/yellow (bottom)."
+  },
+  {
+    "id": "q_185",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What is the background colour of China's national flag?",
+    "answers": [
+      "Orange",
+      "Yellow",
+      "White",
+      "Red"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China's flag is red with one large yellow star and four smaller yellow stars."
+  },
+  {
+    "id": "q_186",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country's flag features a bald eagle?",
+    "answers": [
+      "Mexico",
+      "Brazil",
+      "United States",
+      "Colombia"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The bald eagle appears on the US Presidential seal and coat of arms, though not on the flag itself."
+  },
+  {
+    "id": "q_187",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "What appears on the flag of Cambodia?",
+    "answers": [
+      "Pagoda",
+      "Temple",
+      "Dragon",
+      "Angkor Wat"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Cambodia's flag features Angkor Wat — making it one of the few flags to depict a building."
+  },
+  {
+    "id": "q_188",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "How many stars are on the Chinese national flag?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "China's flag has 5 stars — one large star and four smaller ones, representing unity of the Chinese people."
+  },
+  {
+    "id": "q_189",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which Central American country has a blue and white flag with a coat of arms?",
+    "answers": [
+      "Costa Rica",
+      "Panama",
+      "Guatemala",
+      "Honduras"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Honduras has a white horizontal stripe between two blue stripes, with five blue stars in the centre."
+  },
+  {
+    "id": "q_190",
+    "category": "Flag",
+    "difficulty": "medium",
+    "question": "Which country's flag is divided diagonally into black and red halves with a red star?",
+    "answers": [
+      "Cuba",
+      "Papua New Guinea",
+      "Solomon Islands",
+      "Vanuatu"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Papua New Guinea's flag — black (top left) with yellow bird of paradise, red (bottom right) with Southern Cross stars."
+  },
+  {
+    "id": "q_191",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country does NOT border France?",
+    "answers": [
+      "Belgium",
+      "Switzerland",
+      "Portugal",
+      "Luxembourg"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Portugal only borders Spain. France borders Belgium, Luxembourg, Germany, Switzerland, Italy, Monaco, Spain, and Andorra."
+  },
+  {
+    "id": "q_192",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country borders BOTH China and India?",
+    "answers": [
+      "Myanmar",
+      "Pakistan",
+      "Nepal",
+      "Bhutan"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Nepal sits between China (Tibet) to the north and India to the south and west."
+  },
+  {
+    "id": "q_193",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "How many countries does Germany border?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Germany borders Denmark, Netherlands, Belgium, Luxembourg, France, Switzerland, Austria, Czech Republic, and Poland."
+  },
+  {
+    "id": "q_194",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country is completely surrounded by South Africa?",
+    "answers": [
+      "Swaziland",
+      "Zimbabwe",
+      "Mozambique",
+      "Lesotho"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Lesotho (officially the Kingdom of Lesotho) is a landlocked country entirely enclosed within South Africa."
+  },
+  {
+    "id": "q_195",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country borders both Norway AND Russia?",
+    "answers": [
+      "Sweden",
+      "Finland",
+      "Estonia",
+      "Latvia"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Finland shares borders with Norway, Sweden, and Russia — making it geopolitically significant."
+  },
+  {
+    "id": "q_196",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which ocean lies between Europe and North America?",
+    "answers": [
+      "Pacific",
+      "Arctic",
+      "Indian",
+      "Atlantic"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Atlantic Ocean was named after the Titan Atlas from Greek mythology."
+  },
+  {
+    "id": "q_197",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which continent is Egypt on?",
+    "answers": [
+      "Asia",
+      "Europe",
+      "Oceania",
+      "Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Egypt is in northeastern Africa, though the Sinai Peninsula touches Asia."
+  },
+  {
+    "id": "q_198",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country shares the longest land border with the United States?",
+    "answers": [
+      "Mexico",
+      "Cuba",
+      "Russia",
+      "Canada"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The US-Canada border is the world's longest international border at 8,891 km."
+  },
+  {
+    "id": "q_199",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which sea lies between Italy and Croatia?",
+    "answers": [
+      "Tyrrhenian Sea",
+      "Mediterranean Sea",
+      "Ligurian Sea",
+      "Adriatic Sea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Adriatic Sea separates the Italian Peninsula from the Balkans."
+  },
+  {
+    "id": "q_200",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which continent has the most countries?",
+    "answers": [
+      "Asia",
+      "South America",
+      "Europe",
+      "Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Africa has 54 recognized countries — the most of any continent."
+  },
+  {
+    "id": "q_201",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the world's largest country by land area?",
+    "answers": [
+      "Canada",
+      "USA",
+      "China",
+      "Russia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Russia covers 17.1 million km² — nearly twice the size of second-place Canada."
+  },
+  {
+    "id": "q_202",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the world's smallest country by area?",
+    "answers": [
+      "Monaco",
+      "San Marino",
+      "Liechtenstein",
+      "Vatican City"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Vatican City covers just 0.44 km² — smaller than many city parks."
+  },
+  {
+    "id": "q_203",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which is the world's longest river?",
+    "answers": [
+      "Congo",
+      "Amazon",
+      "Yangtze",
+      "Nile"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Nile runs approximately 6,650 km through northeastern Africa to the Mediterranean."
+  },
+  {
+    "id": "q_204",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "On which continent is the Amazon rainforest?",
+    "answers": [
+      "Africa",
+      "Asia",
+      "Australia",
+      "South America"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Amazon rainforest covers 5.5 million km² across 9 South American countries."
+  },
+  {
+    "id": "q_205",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country has the most time zones?",
+    "answers": [
+      "USA",
+      "Russia",
+      "France",
+      "China"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "France spans 12 time zones due to its overseas territories, more than any other country."
+  },
+  {
+    "id": "q_206",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which mountain range separates Europe from Asia?",
+    "answers": [
+      "Alps",
+      "Carpathians",
+      "Caucasus",
+      "Ural Mountains"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Ural Mountains form a natural boundary between European and Asian Russia."
+  },
+  {
+    "id": "q_207",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the world's largest desert?",
+    "answers": [
+      "Gobi",
+      "Sahara",
+      "Arabian",
+      "Antarctic"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Antarctica is the world's largest desert at 14 million km². The Sahara is the largest hot desert."
+  },
+  {
+    "id": "q_208",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country has the most land borders with other countries?",
+    "answers": [
+      "Brazil",
+      "Sudan",
+      "China",
+      "Russia"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "China and Russia are tied with 14 land borders each — the most of any country."
+  },
+  {
+    "id": "q_209",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the deepest lake in the world?",
+    "answers": [
+      "Caspian Sea",
+      "Lake Baikal",
+      "Lake Tanganyika",
+      "Lake Superior"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Lake Baikal in Russia is 1,642m deep and contains 20% of the world's fresh surface water."
+  },
+  {
+    "id": "q_210",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country is both in Europe and Asia?",
+    "answers": [
+      "Georgia",
+      "Armenia",
+      "Cyprus",
+      "Turkey"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Turkey (and Russia, Kazakhstan, Azerbaijan) span both continents. Turkey's Istanbul straddles Europe and Asia."
+  },
+  {
+    "id": "q_211",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the tallest mountain in Africa?",
+    "answers": [
+      "Mount Kenya",
+      "Kilimanjaro",
+      "Mount Elgon",
+      "Ras Dashen"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Kilimanjaro in Tanzania is 5,895m — Africa's highest peak and the world's highest free-standing mountain."
+  },
+  {
+    "id": "q_212",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country does the Amazon River flow through before reaching the sea?",
+    "answers": [
+      "Peru",
+      "Colombia",
+      "Venezuela",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Amazon flows mainly through Brazil before emptying into the Atlantic Ocean near Marajó island."
+  },
+  {
+    "id": "q_213",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the name of the sea between Saudi Arabia and Africa?",
+    "answers": [
+      "Arabian Sea",
+      "Caspian Sea",
+      "Dead Sea",
+      "Red Sea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Red Sea connects to the Mediterranean via the Suez Canal — one of the world's busiest shipping lanes."
+  },
+  {
+    "id": "q_214",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which is the only country to border both the Pacific and Atlantic oceans?",
+    "answers": [
+      "Colombia",
+      "Ecuador",
+      "Chile",
+      "Panama"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Colombia is the only South American country with coastlines on both the Pacific and Atlantic (Caribbean) oceans."
+  },
+  {
+    "id": "q_215",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "How many countries does the Amazon River pass through?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Amazon passes through Peru, Colombia, and Brazil — 3 countries — before reaching the Atlantic."
+  },
+  {
+    "id": "q_216",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which African country has coastline on both the Atlantic and Indian Oceans?",
+    "answers": [
+      "Angola",
+      "Mozambique",
+      "Tanzania",
+      "South Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "South Africa's Cape of Good Hope is where the Atlantic and Indian Oceans officially meet."
+  },
+  {
+    "id": "q_217",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the name of the strait between Spain and Morocco?",
+    "answers": [
+      "Strait of Messina",
+      "Strait of Hormuz",
+      "Strait of Malacca",
+      "Strait of Gibraltar"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Strait of Gibraltar is only 14 km wide at its narrowest point."
+  },
+  {
+    "id": "q_218",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which country is entirely surrounded by Italy?",
+    "answers": [
+      "Monaco",
+      "Vatican City",
+      "Andorra",
+      "San Marino"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "San Marino is a landlocked microstate entirely surrounded by Italy — the world's oldest republic."
+  },
+  {
+    "id": "q_219",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "Which two continents are connected by the Isthmus of Panama?",
+    "answers": [
+      "Africa and Europe",
+      "North and South America",
+      "Asia and Africa",
+      "Europe and Asia"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Isthmus of Panama joins North and South America. The Panama Canal cuts through it."
+  },
+  {
+    "id": "q_220",
+    "category": "Geography",
+    "difficulty": "beginner",
+    "question": "What is the largest island in the world?",
+    "answers": [
+      "Borneo",
+      "Madagascar",
+      "Baffin Island",
+      "Greenland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Greenland is 2.16 million km² — though it's an autonomous territory of Denmark."
+  },
+  {
+    "id": "q_221",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country contains most of the Sahara Desert?",
+    "answers": [
+      "Mali",
+      "Libya",
+      "Algeria",
+      "Sudan"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Algeria contains the largest portion of the Sahara Desert at about 2 million km²."
+  },
+  {
+    "id": "q_222",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the highest peak in Europe (excluding Russia's Caucasus)?",
+    "answers": [
+      "Matterhorn",
+      "Eiger",
+      "Mont Blanc",
+      "Monte Rosa"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Mont Blanc (4,808m) on the France-Italy border is Western Europe's highest peak."
+  },
+  {
+    "id": "q_223",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which sea does the Danube River flow into?",
+    "answers": [
+      "Mediterranean",
+      "Caspian",
+      "Adriatic",
+      "Black Sea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Danube flows through 10 countries before emptying into the Black Sea via a delta in Romania."
+  },
+  {
+    "id": "q_224",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the name of the channel between England and France?",
+    "answers": [
+      "Irish Sea",
+      "Bay of Biscay",
+      "North Sea",
+      "English Channel"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The English Channel (La Manche in French) is 34 km at its narrowest at the Strait of Dover."
+  },
+  {
+    "id": "q_225",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country has the longest coastline in the world?",
+    "answers": [
+      "Russia",
+      "Australia",
+      "USA",
+      "Canada"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Canada has a coastline of 202,080 km — the world's longest, including islands."
+  },
+  {
+    "id": "q_226",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "In which country is the Atacama Desert?",
+    "answers": [
+      "Argentina",
+      "Bolivia",
+      "Peru",
+      "Chile"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Atacama Desert in Chile is the driest non-polar desert on Earth."
+  },
+  {
+    "id": "q_227",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the largest lake in Africa?",
+    "answers": [
+      "Lake Tanganyika",
+      "Lake Chad",
+      "Lake Malawi",
+      "Lake Victoria"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Lake Victoria is Africa's largest lake at 68,870 km² and the world's largest tropical lake."
+  },
+  {
+    "id": "q_228",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country owns Easter Island (Rapa Nui)?",
+    "answers": [
+      "Peru",
+      "France",
+      "USA",
+      "Chile"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Easter Island is a Chilean territory in the Pacific Ocean, about 3,700 km off the Chilean coast."
+  },
+  {
+    "id": "q_229",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which European country has no land borders?",
+    "answers": [
+      "Iceland",
+      "Malta",
+      "Cyprus",
+      "All of these"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Iceland, Malta, and Cyprus are all island nations with no land borders."
+  },
+  {
+    "id": "q_230",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the name of the large peninsula in southern Europe containing Spain and Portugal?",
+    "answers": [
+      "Apennine",
+      "Scandinavian",
+      "Balkan",
+      "Iberian"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Iberian Peninsula is separated from France by the Pyrenees mountains."
+  },
+  {
+    "id": "q_231",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which river runs through Egypt?",
+    "answers": [
+      "Congo",
+      "Niger",
+      "Zambezi",
+      "Nile"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Nile has sustained Egyptian civilisation for over 5,000 years."
+  },
+  {
+    "id": "q_232",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country does the Yangtze River flow through?",
+    "answers": [
+      "Vietnam",
+      "Japan",
+      "India",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Yangtze is Asia's longest river at 6,300 km, flowing entirely within China."
+  },
+  {
+    "id": "q_233",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the world's largest ocean?",
+    "answers": [
+      "Indian",
+      "Arctic",
+      "Atlantic",
+      "Pacific"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Pacific Ocean covers about 165 million km² — more than all the world's land combined."
+  },
+  {
+    "id": "q_234",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country contains Angel Falls, the world's highest waterfall?",
+    "answers": [
+      "Brazil",
+      "Colombia",
+      "Ecuador",
+      "Venezuela"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Angel Falls in Venezuela drops 979m — nearly 20 times the height of Niagara Falls."
+  },
+  {
+    "id": "q_235",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the lowest point on Earth's surface?",
+    "answers": [
+      "Death Valley",
+      "Mariana Trench",
+      "Dead Sea",
+      "Lake Assal"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Mariana Trench in the Pacific Ocean reaches 11,034m below sea level — the deepest point on Earth."
+  },
+  {
+    "id": "q_236",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country has the most volcanoes?",
+    "answers": [
+      "Japan",
+      "Iceland",
+      "Philippines",
+      "Indonesia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Indonesia has over 130 active volcanoes — more than any other country."
+  },
+  {
+    "id": "q_237",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the longest mountain range in the world?",
+    "answers": [
+      "Himalayas",
+      "Rocky Mountains",
+      "Alps",
+      "Andes"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Andes run 7,000 km along South America's western coast."
+  },
+  {
+    "id": "q_238",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which African country does the equator pass through?",
+    "answers": [
+      "Egypt",
+      "South Africa",
+      "Algeria",
+      "Kenya"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The equator passes through Kenya, Uganda, Democratic Republic of Congo, and several other African countries."
+  },
+  {
+    "id": "q_239",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What sea lies between Italy and Tunisia?",
+    "answers": [
+      "Ligurian Sea",
+      "Tyrrhenian Sea",
+      "Adriatic Sea",
+      "Mediterranean Sea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Mediterranean Sea separates Europe from Africa — its name means 'Sea in the Middle of the Earth'."
+  },
+  {
+    "id": "q_240",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "How many countries are in South America?",
+    "answers": [
+      "10",
+      "12",
+      "13",
+      "14"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "South America has 12 countries: Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela."
+  },
+  {
+    "id": "q_241",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which strait separates Asia from North America?",
+    "answers": [
+      "Strait of Malacca",
+      "Strait of Hormuz",
+      "Drake Passage",
+      "Bering Strait"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Bering Strait is only 85 km wide. During the last Ice Age, it was a land bridge allowing human migration."
+  },
+  {
+    "id": "q_242",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the name of the sea between Australia and New Zealand?",
+    "answers": [
+      "Coral Sea",
+      "Timor Sea",
+      "Indian Ocean",
+      "Tasman Sea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Tasman Sea (named after Dutch explorer Abel Tasman) separates Australia from New Zealand."
+  },
+  {
+    "id": "q_243",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which is the only country in both North America and Europe?",
+    "answers": [
+      "Greenland",
+      "Iceland",
+      "Ireland",
+      "None — impossible"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Denmark (technically in Europe) controls Greenland (geographically in North America). Iceland is entirely in Europe."
+  },
+  {
+    "id": "q_244",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the name of the peninsula where Finland is largely located?",
+    "answers": [
+      "Jutland",
+      "Kola",
+      "Scandinavian",
+      "Iberian"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Scandinavian Peninsula includes Norway and Sweden. Finland is on the Fennoscandian Shield."
+  },
+  {
+    "id": "q_245",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which body of water connects the Black Sea to the Mediterranean?",
+    "answers": [
+      "Suez Canal",
+      "Bosphorus and Dardanelles",
+      "Strait of Messina",
+      "Corinth Canal"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Bosphorus and Dardanelles straits, separated by the Sea of Marmara, connect the Black Sea to the Mediterranean."
+  },
+  {
+    "id": "q_246",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which country has both Atlantic and Indian Ocean coastline on the same continent?",
+    "answers": [
+      "Nigeria",
+      "Cameroon",
+      "Gabon",
+      "South Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "South Africa is at the southern tip of Africa where the two oceans meet at Cape Agulhas."
+  },
+  {
+    "id": "q_247",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "What is the largest country in Africa by area?",
+    "answers": [
+      "Sudan",
+      "Libya",
+      "Congo",
+      "Algeria"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Algeria covers 2.38 million km² — the largest country in Africa and the Arab world."
+  },
+  {
+    "id": "q_248",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which river forms the boundary between the USA and Mexico?",
+    "answers": [
+      "Colorado River",
+      "Missouri River",
+      "Rio Grande",
+      "Arkansas River"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Rio Grande (or Río Bravo del Norte) forms about 2,020 km of the US-Mexico border."
+  },
+  {
+    "id": "q_249",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "In which ocean is the island of Madagascar?",
+    "answers": [
+      "Atlantic",
+      "Pacific",
+      "Arctic",
+      "Indian"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Madagascar lies in the Indian Ocean, about 400 km off the east coast of Mozambique."
+  },
+  {
+    "id": "q_250",
+    "category": "Geography",
+    "difficulty": "medium",
+    "question": "Which European country is split between continental Europe and an island?",
+    "answers": [
+      "Spain",
+      "Denmark",
+      "Croatia",
+      "Greece"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Denmark's mainland is the Jutland Peninsula, plus about 400 islands including Zealand and Funen."
+  },
+  {
+    "id": "q_251",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "How many official languages does Switzerland have?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "German, French, Italian, and Romansh — Switzerland is famously multilingual."
+  },
+  {
+    "id": "q_252",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What is the official language of Brazil?",
+    "answers": [
+      "Spanish",
+      "French",
+      "English",
+      "Portuguese"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brazil is the only Portuguese-speaking country in South America, legacy of Portuguese colonisation from 1500."
+  },
+  {
+    "id": "q_253",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "Which country has the most official languages?",
+    "answers": [
+      "India",
+      "South Africa",
+      "Switzerland",
+      "Belgium"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "South Africa has 11 official languages including Zulu, Xhosa, Afrikaans, and English."
+  },
+  {
+    "id": "q_254",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What language is spoken by the most people as a first language?",
+    "answers": [
+      "English",
+      "Hindi",
+      "Spanish",
+      "Mandarin Chinese"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mandarin Chinese is spoken by about 920 million native speakers."
+  },
+  {
+    "id": "q_255",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "How many official languages does Belgium have?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Belgium has three: Dutch (Flemish), French, and German."
+  },
+  {
+    "id": "q_256",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What is the official language of Egypt?",
+    "answers": [
+      "Arabic",
+      "Coptic",
+      "French",
+      "Turkish"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Modern Standard Arabic is Egypt's official language. Egyptian Arabic is the spoken dialect."
+  },
+  {
+    "id": "q_257",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "In which country is Swahili a major official language?",
+    "answers": [
+      "Ethiopia",
+      "Senegal",
+      "Morocco",
+      "Tanzania"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Swahili (Kiswahili) is co-official with English in Tanzania and Kenya, and widely spoken across East Africa."
+  },
+  {
+    "id": "q_258",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "Which language has the most native speakers in South America?",
+    "answers": [
+      "Portuguese",
+      "Quechua",
+      "Spanish",
+      "English"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Spanish is the most spoken language in South America by native speakers."
+  },
+  {
+    "id": "q_259",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "How many official languages does the European Union have?",
+    "answers": [
+      "12",
+      "18",
+      "24",
+      "27"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The EU has 24 official languages, with German being the most widely spoken native language."
+  },
+  {
+    "id": "q_260",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What language do people in the Netherlands speak?",
+    "answers": [
+      "Flemish",
+      "Afrikaans",
+      "Danish",
+      "Dutch"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Dutch is spoken by about 23 million people worldwide, including in the Netherlands and Flanders, Belgium."
+  },
+  {
+    "id": "q_261",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What is the most spoken language in Africa?",
+    "answers": [
+      "Swahili",
+      "Hausa",
+      "Arabic",
+      "French"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Arabic is spoken across North Africa and is the continent's most widely spoken language."
+  },
+  {
+    "id": "q_262",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "Which country speaks Farsi (Persian) as its official language?",
+    "answers": [
+      "Iraq",
+      "Pakistan",
+      "Afghanistan",
+      "Iran"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Farsi is Iran's official language. Dari (Afghan Persian) is spoken in Afghanistan."
+  },
+  {
+    "id": "q_263",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What is the official language of the Philippines alongside Filipino?",
+    "answers": [
+      "Spanish",
+      "Tagalog",
+      "Cebuano",
+      "English"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Philippines has two official languages: Filipino (based on Tagalog) and English."
+  },
+  {
+    "id": "q_264",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "In which country is Catalan spoken?",
+    "answers": [
+      "Portugal",
+      "France",
+      "Spain",
+      "Italy"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Catalan is spoken in Catalonia, Valencian Community, and the Balearic Islands in Spain, plus Andorra."
+  },
+  {
+    "id": "q_265",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What language do Brazilians NOT speak as an official language?",
+    "answers": [
+      "English",
+      "Portuguese",
+      "Both",
+      "Neither"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Brazil's only official language is Portuguese. English is not official."
+  },
+  {
+    "id": "q_266",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "Which is the most widely spoken language in Canada?",
+    "answers": [
+      "French",
+      "Inuit",
+      "English",
+      "Both equally"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "English is Canada's most widely spoken language. French is co-official and dominant in Quebec."
+  },
+  {
+    "id": "q_267",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What script is used to write Japanese?",
+    "answers": [
+      "Kanji only",
+      "Hiragana only",
+      "Roman alphabet",
+      "Hiragana, Katakana, and Kanji"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Japanese uses three writing systems: Hiragana, Katakana (both syllabic), and Kanji (logographic)."
+  },
+  {
+    "id": "q_268",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "Which African country uses French as an official language?",
+    "answers": [
+      "Ethiopia",
+      "Nigeria",
+      "Ghana",
+      "Senegal"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Senegal uses French as its official language — a legacy of French colonial rule."
+  },
+  {
+    "id": "q_269",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "What is the official language of Israel?",
+    "answers": [
+      "Yiddish",
+      "Arabic only",
+      "English",
+      "Hebrew"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Hebrew was revived as a modern spoken language in the 19th century. Arabic is also official."
+  },
+  {
+    "id": "q_270",
+    "category": "Languages",
+    "difficulty": "medium",
+    "question": "Which country has both French and Wolof as widely spoken languages?",
+    "answers": [
+      "Morocco",
+      "Cameroon",
+      "Mali",
+      "Senegal"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Senegal's official language is French but Wolof is the most widely spoken local language."
+  },
+  {
+    "id": "q_271",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "In which country is Amharic the official language?",
+    "answers": [
+      "Kenya",
+      "Sudan",
+      "Somalia",
+      "Ethiopia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Amharic is Ethiopia's official working language, spoken by about 22 million people as a first language."
+  },
+  {
+    "id": "q_272",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "What language is spoken in most of the Caribbean islands with French influence?",
+    "answers": [
+      "Haitian Creole",
+      "Standard French",
+      "Papiamento",
+      "Antillean Creole"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Haitian Creole is spoken by virtually all of Haiti's 11 million people."
+  },
+  {
+    "id": "q_273",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "Which country has Malay, Chinese, Tamil, and English as official languages?",
+    "answers": [
+      "Indonesia",
+      "Malaysia",
+      "Thailand",
+      "Singapore"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Singapore's four official languages reflect its multicultural population."
+  },
+  {
+    "id": "q_274",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "What language is spoken in Iceland?",
+    "answers": [
+      "Danish",
+      "Norwegian",
+      "Faroese",
+      "Icelandic"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Icelandic has barely changed in 1,000 years — modern Icelanders can read medieval Viking sagas."
+  },
+  {
+    "id": "q_275",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "Which is NOT an official language of Switzerland?",
+    "answers": [
+      "Italian",
+      "Romansh",
+      "French",
+      "Austrian"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Austrian is not a language — Austria speaks German. Switzerland's four languages are German, French, Italian, Romansh."
+  },
+  {
+    "id": "q_276",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "What language do people in Pakistan primarily speak?",
+    "answers": [
+      "Hindi",
+      "Urdu",
+      "Punjabi",
+      "Bengali"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Urdu is Pakistan's national language, though Punjabi is the most widely spoken regional language."
+  },
+  {
+    "id": "q_277",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "Which European language is spoken in Mozambique?",
+    "answers": [
+      "Spanish",
+      "French",
+      "English",
+      "Portuguese"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mozambique was a Portuguese colony until 1975 and Portuguese remains the official language."
+  },
+  {
+    "id": "q_278",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "How many people speak English as either a first or second language?",
+    "answers": [
+      "500 million",
+      "1 billion",
+      "1.5 billion",
+      "2 billion"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Approximately 1.5 billion people speak English — about 400 million as native speakers."
+  },
+  {
+    "id": "q_279",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "Which language has the most letters in its alphabet?",
+    "answers": [
+      "Russian",
+      "Georgian",
+      "Khmer",
+      "Arabic"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Khmer (Cambodian) alphabet has 74 letters — the largest alphabet in the world."
+  },
+  {
+    "id": "q_280",
+    "category": "Languages",
+    "difficulty": "hard",
+    "question": "What is the official language of the Maldives?",
+    "answers": [
+      "Tamil",
+      "Sinhalese",
+      "English",
+      "Dhivehi"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Dhivehi is the Maldivian language, written in Thaana script which reads right to left."
+  },
+  {
+    "id": "q_281",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the international dialling code +1?",
+    "answers": [
+      "Canada only",
+      "USA only",
+      "Canada and USA",
+      "Mexico"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Both the USA and Canada share +1 — it's the North American Numbering Plan."
+  },
+  {
+    "id": "q_282",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +44?",
+    "answers": [
+      "Australia",
+      "Ireland",
+      "New Zealand",
+      "United Kingdom"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The UK's +44 was assigned in 1960 when international dialling was introduced."
+  },
+  {
+    "id": "q_283",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +61?",
+    "answers": [
+      "New Zealand",
+      "South Africa",
+      "Australia",
+      "Canada"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Australia's +61. New Zealand is +64, South Africa is +27."
+  },
+  {
+    "id": "q_284",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +49?",
+    "answers": [
+      "Netherlands",
+      "Austria",
+      "Switzerland",
+      "Germany"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Germany's +49. Austria is +43, Switzerland is +41, Netherlands is +31."
+  },
+  {
+    "id": "q_285",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +81?",
+    "answers": [
+      "China",
+      "South Korea",
+      "Japan",
+      "Vietnam"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Japan's +81 was assigned in 1960."
+  },
+  {
+    "id": "q_286",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +86?",
+    "answers": [
+      "Japan",
+      "Vietnam",
+      "South Korea",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China's +86 is one of the world's most called codes due to its population size."
+  },
+  {
+    "id": "q_287",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +7?",
+    "answers": [
+      "Ukraine",
+      "Belarus",
+      "Kazakhstan",
+      "Russia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Russia uses +7. Kazakhstan also uses +7 — the only two countries sharing this code."
+  },
+  {
+    "id": "q_288",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +33?",
+    "answers": [
+      "Belgium",
+      "France",
+      "Spain",
+      "Switzerland"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "France's +33. Belgium is +32, Spain is +34, Switzerland is +41."
+  },
+  {
+    "id": "q_289",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +91?",
+    "answers": [
+      "Pakistan",
+      "Bangladesh",
+      "Sri Lanka",
+      "India"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "India's +91. Pakistan is +92, Bangladesh is +880, Sri Lanka is +94."
+  },
+  {
+    "id": "q_290",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +55?",
+    "answers": [
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brazil's +55. Argentina is +54, Chile is +56, Colombia is +57."
+  },
+  {
+    "id": "q_291",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country has the dialling code +34?",
+    "answers": [
+      "Portugal",
+      "France",
+      "Italy",
+      "Spain"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Spain's +34. Portugal is +351, France is +33, Italy is +39."
+  },
+  {
+    "id": "q_292",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country uses the internet TLD .jp?",
+    "answers": [
+      "Jordan",
+      "Jamaica",
+      "Japan",
+      "Jersey"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Japan's .jp has been registered since 1986."
+  },
+  {
+    "id": "q_293",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country uses the internet TLD .de?",
+    "answers": [
+      "Denmark",
+      "Germany",
+      "Dominican Republic",
+      "Djibouti"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Germany's .de (Deutschland) is the world's most used country code TLD."
+  },
+  {
+    "id": "q_294",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country uses the internet TLD .fi?",
+    "answers": [
+      "Fiji",
+      "Finland",
+      "France",
+      "Faroe Islands"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Finland's .fi domain has been registered since 1986."
+  },
+  {
+    "id": "q_295",
+    "category": "Dial codes & TLDs",
+    "difficulty": "medium",
+    "question": "Which country uses the internet TLD .au?",
+    "answers": [
+      "Austria",
+      "Azerbaijan",
+      "Australia",
+      "Aruba"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Australia's .au. Austria uses .at, Azerbaijan uses .az."
+  },
+  {
+    "id": "q_296",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country uses the internet TLD .br?",
+    "answers": [
+      "Belgium",
+      "Belarus",
+      "Bolivia",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brazil's .br is one of the most populated country domains."
+  },
+  {
+    "id": "q_297",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country uses the internet TLD .cn?",
+    "answers": [
+      "Cambodia",
+      "Chile",
+      "Cuba",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China's .cn is the world's largest country code domain by registrations."
+  },
+  {
+    "id": "q_298",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country uses the internet TLD .se?",
+    "answers": [
+      "Senegal",
+      "Slovenia",
+      "Sweden",
+      "Switzerland"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Sweden's .se. Switzerland uses .ch (from Confederation Helvetica)."
+  },
+  {
+    "id": "q_299",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country uses the internet TLD .za?",
+    "answers": [
+      "Zambia",
+      "Zimbabwe",
+      "Zanzibar",
+      "South Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": ".za comes from Suid-Afrika, the Afrikaans name for South Africa."
+  },
+  {
+    "id": "q_300",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "What does the TLD .io originally stand for?",
+    "answers": [
+      "International Organization",
+      "Internet Online",
+      "Indian Ocean",
+      "Input/Output"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": ".io is the country code for British Indian Ocean Territory, now popular with tech companies."
+  },
+  {
+    "id": "q_301",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +354?",
+    "answers": [
+      "Norway",
+      "Iceland",
+      "Faroe Islands",
+      "Greenland"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Iceland's +354 — one of the trickiest dial codes to remember."
+  },
+  {
+    "id": "q_302",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +358?",
+    "answers": [
+      "Estonia",
+      "Sweden",
+      "Norway",
+      "Finland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Finland's +358. Sweden is +46, Norway is +47, Estonia is +372."
+  },
+  {
+    "id": "q_303",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +82?",
+    "answers": [
+      "Japan",
+      "China",
+      "Vietnam",
+      "South Korea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "South Korea's +82. Japan is +81, China is +86."
+  },
+  {
+    "id": "q_304",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +52?",
+    "answers": [
+      "Colombia",
+      "Argentina",
+      "Chile",
+      "Mexico"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mexico's +52. Colombia is +57, Argentina is +54, Chile is +56."
+  },
+  {
+    "id": "q_305",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +20?",
+    "answers": [
+      "Ethiopia",
+      "Morocco",
+      "Tunisia",
+      "Egypt"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Egypt's +20 was one of the earliest codes assigned, in 1960."
+  },
+  {
+    "id": "q_306",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country uses the internet TLD .nl?",
+    "answers": [
+      "Norway",
+      "New Zealand",
+      "Nepal",
+      "Netherlands"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Netherlands' .nl. Norway uses .no, New Zealand uses .nz, Nepal uses .np."
+  },
+  {
+    "id": "q_307",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "What country code does Amazon's .amazon TLD relate to?",
+    "answers": [
+      "No country — it's a brand TLD",
+      "USA",
+      "Brazil",
+      "Both USA and Brazil"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": ".amazon is a generic top-level domain (gTLD) owned by Amazon — not a country code."
+  },
+  {
+    "id": "q_308",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +27?",
+    "answers": [
+      "Zimbabwe",
+      "Zambia",
+      "Kenya",
+      "South Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "South Africa's +27. Zimbabwe is +263, Zambia is +260, Kenya is +254."
+  },
+  {
+    "id": "q_309",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which country has the dialling code +64?",
+    "answers": [
+      "Australia",
+      "Papua New Guinea",
+      "Fiji",
+      "New Zealand"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "New Zealand's +64. Australia is +61, Fiji is +679, Papua New Guinea is +675."
+  },
+  {
+    "id": "q_310",
+    "category": "Dial codes & TLDs",
+    "difficulty": "hard",
+    "question": "Which Caribbean island uses the TLD .cu?",
+    "answers": [
+      "Curaçao",
+      "Cuba",
+      "Cayman Islands",
+      "Comoros"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Cuba's .cu has been registered since 1992."
+  },
+  {
+    "id": "q_311",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national animal of Australia?",
+    "answers": [
+      "Wombat",
+      "Dingo",
+      "Koala",
+      "Kangaroo"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The red kangaroo appears on Australia's coat of arms alongside the emu."
+  },
+  {
+    "id": "q_312",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national animal of Canada?",
+    "answers": [
+      "Moose",
+      "Bear",
+      "Beaver",
+      "Bison"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Canadian beaver has been an official emblem since 1975."
+  },
+  {
+    "id": "q_313",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national animal of India?",
+    "answers": [
+      "Elephant",
+      "Bengal Tiger",
+      "Peacock",
+      "Snow Leopard"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Bengal Tiger became India's national animal in 1973 under Project Tiger."
+  },
+  {
+    "id": "q_314",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national animal of New Zealand?",
+    "answers": [
+      "Kiwi",
+      "Kakapo",
+      "Tuatara",
+      "Weta"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "The kiwi (Apteryx) is a flightless nocturnal bird found only in New Zealand."
+  },
+  {
+    "id": "q_315",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national animal of Scotland?",
+    "answers": [
+      "Red Deer",
+      "Golden Eagle",
+      "Red Squirrel",
+      "Unicorn"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The unicorn has been Scotland's national animal since the 12th century."
+  },
+  {
+    "id": "q_316",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national bird of the United States?",
+    "answers": [
+      "Turkey",
+      "Golden Eagle",
+      "Peregrine Falcon",
+      "Bald Eagle"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The bald eagle was chosen as the US national bird in 1782."
+  },
+  {
+    "id": "q_317",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Sushi originally from?",
+    "answers": [
+      "China",
+      "Korea",
+      "Thailand",
+      "Japan"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sushi originated in Japan, evolving from a method of preserving fish in fermented rice."
+  },
+  {
+    "id": "q_318",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Paella originally from?",
+    "answers": [
+      "Mexico",
+      "Italy",
+      "Portugal",
+      "Spain"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Paella originated in Valencia, Spain, in the 19th century."
+  },
+  {
+    "id": "q_319",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Kimchi originally from?",
+    "answers": [
+      "Japan",
+      "Vietnam",
+      "China",
+      "South Korea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Kimchi has been made in Korea for thousands of years and is a UNESCO Cultural Heritage."
+  },
+  {
+    "id": "q_320",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Feta cheese traditionally from?",
+    "answers": [
+      "Turkey",
+      "Italy",
+      "Bulgaria",
+      "Greece"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Feta is a PDO (Protected Designation of Origin) product — only made in specific Greek regions."
+  },
+  {
+    "id": "q_321",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Injera flatbread is the national dish of which country?",
+    "answers": [
+      "Kenya",
+      "Somalia",
+      "Nigeria",
+      "Ethiopia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Injera is made from teff grain and serves as both bread and eating utensil in Ethiopia."
+  },
+  {
+    "id": "q_322",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Croissant originally from?",
+    "answers": [
+      "France",
+      "Belgium",
+      "Austria",
+      "Germany"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The croissant was invented in Vienna, Austria, and popularised in France in the early 19th century."
+  },
+  {
+    "id": "q_323",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Chocolate originally from?",
+    "answers": [
+      "Switzerland",
+      "Belgium",
+      "France",
+      "Mexico"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Cacao was first cultivated by Mesoamerican civilisations, including the Aztecs in what is now Mexico."
+  },
+  {
+    "id": "q_324",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country did Pizza originate from?",
+    "answers": [
+      "USA",
+      "Greece",
+      "France",
+      "Italy"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Pizza originated in Naples, Italy, in the 18th-19th century."
+  },
+  {
+    "id": "q_325",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is famous for inventing Cheese Fondue?",
+    "answers": [
+      "France",
+      "Austria",
+      "Germany",
+      "Switzerland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Fondue was declared Switzerland's national dish in the 1930s as a way to increase cheese sales."
+  },
+  {
+    "id": "q_326",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national animal of China?",
+    "answers": [
+      "Red Panda",
+      "Snow Leopard",
+      "Golden Monkey",
+      "Giant Panda"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The giant panda has been a symbol of China and is used in conservation diplomacy ('panda diplomacy')."
+  },
+  {
+    "id": "q_327",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is Haggis traditionally from?",
+    "answers": [
+      "Ireland",
+      "Wales",
+      "England",
+      "Scotland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Haggis — a savoury pudding made from sheep offal mixed with oatmeal — is Scotland's national dish."
+  },
+  {
+    "id": "q_328",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "In which country did the Carnival of Rio de Janeiro originate?",
+    "answers": [
+      "Portugal",
+      "Spain",
+      "USA",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Rio Carnival is the world's largest carnival, attracting 2 million people per day."
+  },
+  {
+    "id": "q_329",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national drink of Japan?",
+    "answers": [
+      "Whisky",
+      "Shochu",
+      "Beer",
+      "Sake"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sake (rice wine) has been brewed in Japan for at least 2,000 years."
+  },
+  {
+    "id": "q_330",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is the world's largest producer of coffee?",
+    "answers": [
+      "Colombia",
+      "Vietnam",
+      "Ethiopia",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brazil produces about 35% of the world's coffee supply."
+  },
+  {
+    "id": "q_331",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What sport was invented in Canada?",
+    "answers": [
+      "Ice Hockey",
+      "Curling",
+      "Basketball",
+      "Lacrosse"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Basketball was invented in 1891 by Canadian James Naismith while teaching in Springfield, Massachusetts."
+  },
+  {
+    "id": "q_332",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is credited with inventing Football (Soccer)?",
+    "answers": [
+      "Italy",
+      "France",
+      "Spain",
+      "England"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Modern association football was codified in England in 1863 by the Football Association."
+  },
+  {
+    "id": "q_333",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national dish of the United Kingdom?",
+    "answers": [
+      "Fish and Chips",
+      "Sunday Roast",
+      "Full English Breakfast",
+      "Chicken Tikka Masala"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Chicken Tikka Masala was declared Britain's national dish in 2001 by Foreign Secretary Robin Cook."
+  },
+  {
+    "id": "q_334",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is Flamenco?",
+    "answers": [
+      "A type of food",
+      "A bird",
+      "A dance from Spain",
+      "A festival from Portugal"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Flamenco is a traditional art form from Andalusia, Spain, involving dance, guitar, and singing."
+  },
+  {
+    "id": "q_335",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "In which country is the Oktoberfest beer festival held annually?",
+    "answers": [
+      "Austria",
+      "Belgium",
+      "Netherlands",
+      "Germany"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Oktoberfest is held in Munich, Bavaria, Germany, and began in 1810."
+  },
+  {
+    "id": "q_336",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What national animal appears on Mexico's flag?",
+    "answers": [
+      "Jaguar",
+      "Condor",
+      "Quetzal",
+      "Eagle"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mexico's flag shows an eagle with a serpent in its beak, perched on a cactus — from an Aztec legend."
+  },
+  {
+    "id": "q_337",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country is the world's largest producer of tea?",
+    "answers": [
+      "India",
+      "Japan",
+      "Kenya",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China produces about 45% of the world's tea."
+  },
+  {
+    "id": "q_338",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Tango music and dance originated in which country?",
+    "answers": [
+      "Brazil",
+      "Cuba",
+      "Spain",
+      "Argentina"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Tango originated in the working-class areas of Buenos Aires in the late 19th century."
+  },
+  {
+    "id": "q_339",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "Which country celebrates Diwali as a major national holiday?",
+    "answers": [
+      "Nepal",
+      "Pakistan",
+      "Bangladesh",
+      "India"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Diwali is the Hindu Festival of Lights — India's most widely celebrated festival."
+  },
+  {
+    "id": "q_340",
+    "category": "Culture & food",
+    "difficulty": "medium",
+    "question": "What is the national flower of Japan?",
+    "answers": [
+      "Lotus",
+      "Sakura (Cherry Blossom)",
+      "Chrysanthemum",
+      "Plum Blossom"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Cherry blossom (sakura) season is celebrated annually across Japan in late March/April."
+  },
+  {
+    "id": "q_341",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country's cuisine commonly uses injera as a staple?",
+    "answers": [
+      "Nigeria",
+      "Sudan",
+      "Eritrea",
+      "Ethiopia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Injera is used across Ethiopia and Eritrea as a staple — it's both the plate and the utensil."
+  },
+  {
+    "id": "q_342",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "In which country is the running of the bulls (San Fermín) held?",
+    "answers": [
+      "Mexico",
+      "Argentina",
+      "Peru",
+      "Spain"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The San Fermín festival and running of the bulls is held in Pamplona, Spain, every July."
+  },
+  {
+    "id": "q_343",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country is home to the ancient ruins of Machu Picchu?",
+    "answers": [
+      "Bolivia",
+      "Chile",
+      "Colombia",
+      "Peru"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Machu Picchu was built by the Inca Empire in the 15th century at 2,430m altitude in Peru."
+  },
+  {
+    "id": "q_344",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "What is the national animal of Norway?",
+    "answers": [
+      "Reindeer",
+      "Wolf",
+      "Moose",
+      "Lion"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The moose (elk) is Norway's national animal — there are about 120,000 in Norway."
+  },
+  {
+    "id": "q_345",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which Asian country is famous for its Muay Thai martial art?",
+    "answers": [
+      "Vietnam",
+      "Japan",
+      "Indonesia",
+      "Thailand"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Muay Thai (Thai boxing) is Thailand's national sport and martial art, using fists, elbows, knees, and shins."
+  },
+  {
+    "id": "q_346",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "What is the national animal of Finland?",
+    "answers": [
+      "Reindeer",
+      "Wolverine",
+      "Wolf",
+      "Brown Bear"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The brown bear has been Finland's national animal since 1985."
+  },
+  {
+    "id": "q_347",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Jollof Rice is associated with which region?",
+    "answers": [
+      "East Africa",
+      "North Africa",
+      "Southern Africa",
+      "West Africa"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Jollof rice is a beloved West African dish — Nigeria and Ghana famously debate who makes it best."
+  },
+  {
+    "id": "q_348",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country invented the printing press?",
+    "answers": [
+      "France",
+      "UK",
+      "Italy",
+      "Germany"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Johannes Gutenberg invented the printing press with movable type in Mainz, Germany, around 1440."
+  },
+  {
+    "id": "q_349",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "What is the traditional Japanese art of paper folding called?",
+    "answers": [
+      "Ikebana",
+      "Origami",
+      "Kintsugi",
+      "Bonsai"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Origami has been practised in Japan since the 6th century when paper was introduced from China."
+  },
+  {
+    "id": "q_350",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country is famous for its Mariachi music?",
+    "answers": [
+      "Colombia",
+      "Cuba",
+      "Brazil",
+      "Mexico"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mariachi is a form of regional Mexican music from Jalisco, now a UNESCO Intangible Cultural Heritage."
+  },
+  {
+    "id": "q_351",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "In which country is the Holi festival of colours most prominently celebrated?",
+    "answers": [
+      "Nepal",
+      "Bangladesh",
+      "Pakistan",
+      "India"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Holi is a Hindu spring festival celebrated across India and Nepal with coloured powder and water."
+  },
+  {
+    "id": "q_352",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country is credited with inventing the telephone?",
+    "answers": [
+      "UK",
+      "France",
+      "Germany",
+      "USA/Canada"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Alexander Graham Bell (Scottish-born, working in Canada and USA) patented the telephone in 1876."
+  },
+  {
+    "id": "q_353",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "What is the national sport of Canada?",
+    "answers": [
+      "Ice Hockey and Lacrosse",
+      "Only Ice Hockey",
+      "Only Lacrosse",
+      "Basketball"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Canada officially recognises both ice hockey (winter) and lacrosse (summer) as national sports."
+  },
+  {
+    "id": "q_354",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country's national animal is the snow leopard?",
+    "answers": [
+      "Nepal",
+      "Pakistan",
+      "Bhutan",
+      "Afghanistan"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The snow leopard (Panthera uncia) is Pakistan's national animal."
+  },
+  {
+    "id": "q_355",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "In which country did the martial art Judo originate?",
+    "answers": [
+      "China",
+      "Korea",
+      "Japan",
+      "Brazil"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Judo was created in 1882 by Japanese educator Jigorō Kanō as a sport derived from jujutsu."
+  },
+  {
+    "id": "q_356",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "What is Capoeira?",
+    "answers": [
+      "A Brazilian instrument",
+      "A Brazilian martial art/dance",
+      "A Brazilian dish",
+      "A Brazilian festival"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Capoeira is an Afro-Brazilian martial art combining elements of dance, acrobatics, and music, created by enslaved Africans in Brazil."
+  },
+  {
+    "id": "q_357",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest producer of olive oil?",
+    "answers": [
+      "Italy",
+      "Greece",
+      "Tunisia",
+      "Spain"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Spain produces about 45% of the world's olive oil, mainly in Andalusia."
+  },
+  {
+    "id": "q_358",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "What is the national animal of Russia?",
+    "answers": [
+      "Wolf",
+      "Eagle",
+      "Bear",
+      "Bison"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The bear (specifically the brown bear) is Russia's national symbol and cultural emblem."
+  },
+  {
+    "id": "q_359",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "In which country did the Renaissance begin?",
+    "answers": [
+      "France",
+      "Germany",
+      "Spain",
+      "Italy"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Renaissance began in Florence, Italy, in the 14th century, spreading across Europe."
+  },
+  {
+    "id": "q_360",
+    "category": "Culture & food",
+    "difficulty": "hard",
+    "question": "Which country has the world's largest Buddhist temple complex?",
+    "answers": [
+      "Thailand",
+      "Cambodia",
+      "Sri Lanka",
+      "Indonesia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Borobudur in Indonesia is the world's largest Buddhist temple, built in the 9th century."
+  },
+  {
+    "id": "q_361",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is the world's largest economy by GDP?",
+    "answers": [
+      "China",
+      "Japan",
+      "Germany",
+      "United States"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The US GDP is about $27 trillion — the world's largest, though China may overtake it by 2030."
+  },
+  {
+    "id": "q_362",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country has the highest GDP per capita?",
+    "answers": [
+      "Switzerland",
+      "Norway",
+      "Singapore",
+      "Luxembourg"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Luxembourg's GDP per capita is around $130,000 — the world's highest."
+  },
+  {
+    "id": "q_363",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is the dominant export of Saudi Arabia?",
+    "answers": [
+      "Tourism",
+      "Petrochemicals",
+      "Finance",
+      "Oil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Oil accounts for about 70% of Saudi Arabia's export earnings and 40% of GDP."
+  },
+  {
+    "id": "q_364",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country is the world's largest exporter of goods?",
+    "answers": [
+      "USA",
+      "Japan",
+      "Germany",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China became the world's largest goods exporter in 2009 and maintains that position."
+  },
+  {
+    "id": "q_365",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is Germany's largest company by market capitalisation?",
+    "answers": [
+      "BMW",
+      "Volkswagen",
+      "Siemens",
+      "SAP"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "SAP (software company) is Germany's most valuable company, overtaking BMW and Siemens."
+  },
+  {
+    "id": "q_366",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country has the world's largest stock exchange by market cap?",
+    "answers": [
+      "Japan",
+      "UK",
+      "China",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The New York Stock Exchange (NYSE) is the world's largest stock exchange."
+  },
+  {
+    "id": "q_367",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country produces the most cars annually?",
+    "answers": [
+      "Japan",
+      "USA",
+      "Germany",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China has been the world's largest car manufacturer since 2008."
+  },
+  {
+    "id": "q_368",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is Switzerland's most famous export industry?",
+    "answers": [
+      "Machinery",
+      "Banking and Finance",
+      "Pharmaceuticals",
+      "Watches and Chocolate"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Swiss banking and financial services are world-renowned, alongside watches, chemicals, and machinery."
+  },
+  {
+    "id": "q_369",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country is the world's largest wheat exporter?",
+    "answers": [
+      "USA",
+      "Australia",
+      "Russia",
+      "Canada"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Russia overtook the USA as the world's largest wheat exporter around 2016."
+  },
+  {
+    "id": "q_370",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is the GDP of the entire African continent roughly equal to?",
+    "answers": [
+      "UK",
+      "Italy",
+      "France",
+      "Germany"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Africa's combined GDP is roughly equal to Germany's — despite having 1.4 billion people."
+  },
+  {
+    "id": "q_371",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country is the world's largest diamond producer?",
+    "answers": [
+      "South Africa",
+      "Russia",
+      "Botswana",
+      "Canada"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Russia is the world's largest diamond producer by volume through Alrosa mining company."
+  },
+  {
+    "id": "q_372",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country has the world's largest proven oil reserves?",
+    "answers": [
+      "Saudi Arabia",
+      "Iran",
+      "Iraq",
+      "Venezuela"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Venezuela has the world's largest proven oil reserves at 303 billion barrels."
+  },
+  {
+    "id": "q_373",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is Japan's most famous car brand?",
+    "answers": [
+      "Nissan",
+      "Honda",
+      "Mazda",
+      "Toyota"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Toyota is the world's largest car manufacturer by sales and Japan's most valuable brand."
+  },
+  {
+    "id": "q_374",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "In which country is IKEA originally from?",
+    "answers": [
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Sweden"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "IKEA was founded in 1943 by Ingvar Kamprad in Älmhult, Sweden."
+  },
+  {
+    "id": "q_375",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country is H&M (clothing chain) originally from?",
+    "answers": [
+      "Denmark",
+      "Norway",
+      "Germany",
+      "Sweden"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "H&M (Hennes & Mauritz) was founded in 1947 in Västerås, Sweden."
+  },
+  {
+    "id": "q_376",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country is home to the pharmaceutical company Novartis?",
+    "answers": [
+      "Germany",
+      "USA",
+      "UK",
+      "Switzerland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Novartis is headquartered in Basel, Switzerland — one of the world's largest pharma companies."
+  },
+  {
+    "id": "q_377",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "In which country is Toyota headquartered?",
+    "answers": [
+      "South Korea",
+      "Germany",
+      "USA",
+      "Japan"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Toyota is headquartered in Toyota City, Aichi Prefecture, Japan."
+  },
+  {
+    "id": "q_378",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country is home to Samsung?",
+    "answers": [
+      "Japan",
+      "Taiwan",
+      "China",
+      "South Korea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Samsung is headquartered in Suwon, South Korea. It accounts for about 20% of South Korea's exports."
+  },
+  {
+    "id": "q_379",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "Which country has the world's largest fishing industry by catch?",
+    "answers": [
+      "Norway",
+      "Peru",
+      "Japan",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China accounts for about 35% of global fish catch."
+  },
+  {
+    "id": "q_380",
+    "category": "Economy",
+    "difficulty": "medium",
+    "question": "What is Norway's primary source of government revenue?",
+    "answers": [
+      "Tourism",
+      "Shipping",
+      "Hydropower",
+      "Oil and gas"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Norway's oil and gas sector accounts for about 14% of GDP and funds its $1.7 trillion sovereign wealth fund."
+  },
+  {
+    "id": "q_381",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest cocoa producer?",
+    "answers": [
+      "Ghana",
+      "Brazil",
+      "Indonesia",
+      "Ivory Coast"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Ivory Coast (Côte d'Ivoire) produces about 45% of the world's cocoa."
+  },
+  {
+    "id": "q_382",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country is the leading producer of lithium?",
+    "answers": [
+      "Argentina",
+      "Chile",
+      "Australia",
+      "Bolivia"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Australia is the world's largest lithium producer, accounting for about 55% of global supply."
+  },
+  {
+    "id": "q_383",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "In which country is the Airbus company headquartered?",
+    "answers": [
+      "UK",
+      "Germany",
+      "France",
+      "Netherlands"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Airbus SE is headquartered in Toulouse, France, though it has major facilities across Europe."
+  },
+  {
+    "id": "q_384",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest exporter of bananas?",
+    "answers": [
+      "Brazil",
+      "Costa Rica",
+      "Philippines",
+      "Ecuador"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Ecuador is the world's largest banana exporter, accounting for about 25% of global exports."
+  },
+  {
+    "id": "q_385",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which nation has the world's highest minimum wage (in USD equivalent)?",
+    "answers": [
+      "UK",
+      "Norway",
+      "Switzerland",
+      "Australia"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Switzerland's minimum wage in Geneva is over $25/hour — the world's highest."
+  },
+  {
+    "id": "q_386",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "In which country is Zara (clothing) originally from?",
+    "answers": [
+      "Italy",
+      "France",
+      "Portugal",
+      "Spain"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Zara was founded by Amancio Ortega in Arteixo, Galicia, Spain in 1975."
+  },
+  {
+    "id": "q_387",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest producer of rubber?",
+    "answers": [
+      "Malaysia",
+      "Indonesia",
+      "Vietnam",
+      "Thailand"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Thailand produces about 37% of the world's natural rubber."
+  },
+  {
+    "id": "q_388",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "What is Finland's most famous technology company?",
+    "answers": [
+      "Nokia",
+      "Rovio",
+      "Supercell",
+      "F-Secure"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Nokia was once the world's largest mobile phone manufacturer, peaking in the early 2000s."
+  },
+  {
+    "id": "q_389",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country produces the most wool globally?",
+    "answers": [
+      "New Zealand",
+      "UK",
+      "South Africa",
+      "Australia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Australia produces about 25% of the world's wool and is the largest supplier of merino wool."
+  },
+  {
+    "id": "q_390",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country has the most billionaires?",
+    "answers": [
+      "Russia",
+      "India",
+      "China",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USA has the most billionaires (over 700) followed by China."
+  },
+  {
+    "id": "q_391",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest exporter of soybeans?",
+    "answers": [
+      "Argentina",
+      "USA",
+      "Paraguay",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brazil overtook the USA as the world's largest soybean exporter around 2013."
+  },
+  {
+    "id": "q_392",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "In which country is the world's largest sovereign wealth fund?",
+    "answers": [
+      "UAE",
+      "Kuwait",
+      "Saudi Arabia",
+      "Norway"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Norway's Government Pension Fund Global is the world's largest at over $1.7 trillion."
+  },
+  {
+    "id": "q_393",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country produces the most electricity from nuclear power?",
+    "answers": [
+      "Russia",
+      "France",
+      "China",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USA generates the most nuclear power in absolute terms — France generates the highest percentage (about 70%)."
+  },
+  {
+    "id": "q_394",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country has the world's largest economy by purchasing power parity (PPP)?",
+    "answers": [
+      "USA",
+      "India",
+      "Japan",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China surpassed the USA in GDP (PPP) around 2017 according to World Bank estimates."
+  },
+  {
+    "id": "q_395",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "In which country is the cosmetics brand L'Oréal from?",
+    "answers": [
+      "Italy",
+      "USA",
+      "UK",
+      "France"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "L'Oréal was founded in 1909 by Eugène Schueller in Paris, France."
+  },
+  {
+    "id": "q_396",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which is the world's most visited tourist destination country?",
+    "answers": [
+      "Spain",
+      "China",
+      "Italy",
+      "France"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "France is the world's most visited country, receiving about 90 million tourists per year."
+  },
+  {
+    "id": "q_397",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "What is the most traded currency pair in the world?",
+    "answers": [
+      "EUR/GBP",
+      "USD/JPY",
+      "GBP/USD",
+      "EUR/USD"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "EUR/USD accounts for about 20-28% of all daily forex trading volume."
+  },
+  {
+    "id": "q_398",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest exporter of arms?",
+    "answers": [
+      "Russia",
+      "UK",
+      "France",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USA accounts for about 40% of global arms exports."
+  },
+  {
+    "id": "q_399",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "What percentage of the world's internet users are in Asia?",
+    "answers": [
+      "30%",
+      "40%",
+      "50%",
+      "Over 55%"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Over 55% of the world's internet users are in Asia, primarily China and India."
+  },
+  {
+    "id": "q_400",
+    "category": "Economy",
+    "difficulty": "hard",
+    "question": "In which country is the chocolate brand Toblerone from?",
+    "answers": [
+      "Netherlands",
+      "Germany",
+      "Austria",
+      "Switzerland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Toblerone was created in 1908 in Bern, Switzerland — its distinctive triangular shape represents the Alps."
+  },
+  {
+    "id": "q_401",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country spans the most time zones?",
+    "answers": [
+      "USA",
+      "Russia",
+      "France",
+      "China"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "France spans 12 time zones due to overseas territories — more than Russia's 11 contiguous ones."
+  },
+  {
+    "id": "q_402",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Three of these use the Euro. Which does NOT?",
+    "answers": [
+      "Slovakia",
+      "Slovenia",
+      "Croatia",
+      "Serbia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Serbia uses the Dinar. Slovakia (2009), Slovenia (2007), Croatia (2023) joined the Eurozone."
+  },
+  {
+    "id": "q_403",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country is completely surrounded by only one other country?",
+    "answers": [
+      "Monaco",
+      "Vatican City",
+      "San Marino",
+      "Lesotho"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Lesotho is surrounded entirely by South Africa. Monaco, Vatican City, and San Marino are surrounded by one country but on coast or near border."
+  },
+  {
+    "id": "q_404",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country with a coastline on both the Red Sea and the Arabian Sea?",
+    "answers": [
+      "Oman",
+      "Yemen",
+      "Saudi Arabia",
+      "UAE"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Yemen has coastlines on both the Red Sea (west) and the Arabian Sea/Gulf of Aden (south)."
+  },
+  {
+    "id": "q_405",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most UNESCO World Heritage Sites?",
+    "answers": [
+      "France",
+      "China",
+      "Spain",
+      "Italy"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Italy leads with 58 UNESCO World Heritage Sites."
+  },
+  {
+    "id": "q_406",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only Central American country without a Pacific Ocean coastline?",
+    "answers": [
+      "Belize",
+      "Guatemala",
+      "Honduras",
+      "Nicaragua"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Belize only has a Caribbean/Atlantic coastline — no Pacific coast."
+  },
+  {
+    "id": "q_407",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's longest written constitution?",
+    "answers": [
+      "USA",
+      "India",
+      "Germany",
+      "Brazil"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "India's constitution is the world's longest, with 448 articles in its current form."
+  },
+  {
+    "id": "q_408",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country did NOT exist as an independent state before 1990?",
+    "answers": [
+      "Estonia",
+      "Slovenia",
+      "Belarus",
+      "Portugal"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Belarus was part of the Soviet Union until 1991. Estonia and Slovenia also gained independence around that time, but Portugal has been independent since 1143."
+  },
+  {
+    "id": "q_409",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's oldest surviving republic?",
+    "answers": [
+      "Iceland",
+      "Vatican City",
+      "San Marino",
+      "Switzerland"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "San Marino claims to be the world's oldest republic, founded in 301 AD."
+  },
+  {
+    "id": "q_410",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which European country has the highest proportion of forest cover?",
+    "answers": [
+      "Germany",
+      "Sweden",
+      "Finland",
+      "Norway"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Finland has about 73% forest cover — the highest proportion in Europe."
+  },
+  {
+    "id": "q_411",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries are in the Commonwealth of Independent States (CIS)?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The CIS has 9 full members: Russia, Belarus, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, Armenia, Azerbaijan, and Moldova."
+  },
+  {
+    "id": "q_412",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the highest altitude capital city in the world?",
+    "answers": [
+      "Peru",
+      "Bolivia",
+      "Ecuador",
+      "Colombia"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Sucre and La Paz (Bolivia) compete for this title. La Paz (seat of government) is at 3,640m, making it the highest by most measures."
+  },
+  {
+    "id": "q_413",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country that borders both the Caspian Sea and the Persian Gulf?",
+    "answers": [
+      "Iraq",
+      "Azerbaijan",
+      "Turkmenistan",
+      "Iran"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Iran has coastlines on both the Caspian Sea (north) and Persian Gulf (south)."
+  },
+  {
+    "id": "q_414",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most islands?",
+    "answers": [
+      "Indonesia",
+      "Philippines",
+      "Greece",
+      "Sweden"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sweden has about 221,800 islands — the most of any country. (Indonesia has the most inhabited islands.)"
+  },
+  {
+    "id": "q_415",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's newest internationally recognised country?",
+    "answers": [
+      "Kosovo",
+      "East Timor",
+      "Montenegro",
+      "South Sudan"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "South Sudan gained independence from Sudan on 9 July 2011, making it the world's newest country."
+  },
+  {
+    "id": "q_416",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's longest railway network?",
+    "answers": [
+      "China",
+      "Russia",
+      "India",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USA has the world's longest railway network at about 293,564 km."
+  },
+  {
+    "id": "q_417",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country produces 90% of the world's saffron?",
+    "answers": [
+      "Turkey",
+      "India",
+      "Spain",
+      "Iran"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Iran produces about 90% of the world's saffron — the world's most expensive spice by weight."
+  },
+  {
+    "id": "q_418",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country to have won the FIFA World Cup on a different continent?",
+    "answers": [
+      "Germany",
+      "France",
+      "Brazil",
+      "Spain"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Brazil won the 1958 World Cup in Sweden — the only country to win on a continent other than their own."
+  },
+  {
+    "id": "q_419",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which is the only country that begins with 'The'?",
+    "answers": [
+      "The Bahamas",
+      "The Gambia",
+      "Both",
+      "Neither — this isn't a thing"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Bahamas and The Gambia are officially named with 'The' — the only two countries in the world."
+  },
+  {
+    "id": "q_420",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What percentage of the world's population lives in China and India combined?",
+    "answers": [
+      "25%",
+      "30%",
+      "35%",
+      "Over 35%"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China (~1.4B) and India (~1.45B) together account for about 36% of the world's population."
+  },
+  {
+    "id": "q_421",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which African country was never colonised by a European power?",
+    "answers": [
+      "Zimbabwe",
+      "Sudan",
+      "Nigeria",
+      "Ethiopia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Ethiopia successfully resisted Italian colonisation at the Battle of Adwa in 1896. Liberia is another example."
+  },
+  {
+    "id": "q_422",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the most common religion in Indonesia?",
+    "answers": [
+      "Hinduism",
+      "Buddhism",
+      "Christianity",
+      "Islam"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Indonesia is the world's largest Muslim-majority country with about 87% Muslim population."
+  },
+  {
+    "id": "q_423",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's largest army by active personnel?",
+    "answers": [
+      "Russia",
+      "India",
+      "USA",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China's People's Liberation Army has about 2 million active personnel — the world's largest."
+  },
+  {
+    "id": "q_424",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the highest population density in the world?",
+    "answers": [
+      "Singapore",
+      "Malta",
+      "Bangladesh",
+      "Monaco"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Monaco has about 26,150 people per km² — the world's highest population density."
+  },
+  {
+    "id": "q_425",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's most spoken language by total speakers (native + second language)?",
+    "answers": [
+      "Mandarin Chinese",
+      "Hindi",
+      "Spanish",
+      "English"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "English has approximately 1.5 billion total speakers, making it the most spoken globally."
+  },
+  {
+    "id": "q_426",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's highest average elevation?",
+    "answers": [
+      "Nepal",
+      "Tibet (China)",
+      "Bhutan",
+      "Lesotho"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "If Tibet were a country, it would win easily. Among recognised countries, Bhutan has the highest average elevation at about 3,280m."
+  },
+  {
+    "id": "q_427",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's busiest airport by passenger numbers?",
+    "answers": [
+      "London Heathrow",
+      "Dubai International",
+      "Beijing Capital",
+      "Hartsfield-Jackson Atlanta"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Hartsfield-Jackson Atlanta International Airport has been the world's busiest since 1998 (except during COVID)."
+  },
+  {
+    "id": "q_428",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which two countries share the world's highest navigable lake?",
+    "answers": [
+      "Peru and Chile",
+      "Bolivia and Peru",
+      "Bolivia and Brazil",
+      "Peru and Ecuador"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Lake Titicaca at 3,812m altitude is shared between Bolivia and Peru."
+  },
+  {
+    "id": "q_429",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which is the only Arab country to have hosted the FIFA World Cup?",
+    "answers": [
+      "UAE",
+      "Saudi Arabia",
+      "Qatar",
+      "Bahrain"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Qatar hosted the 2022 FIFA World Cup — the first time in the Arab world."
+  },
+  {
+    "id": "q_430",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country to have a coastline on three oceans?",
+    "answers": [
+      "Australia",
+      "Brazil",
+      "Indonesia",
+      "Russia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Russia has coastlines on the Arctic Ocean, Pacific Ocean, and Atlantic Ocean (via Baltic/Black Seas)."
+  },
+  {
+    "id": "q_431",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most languages spoken within its borders?",
+    "answers": [
+      "China",
+      "USA",
+      "Nigeria",
+      "Papua New Guinea"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Papua New Guinea has over 800 languages — the most linguistic diversity of any country."
+  },
+  {
+    "id": "q_432",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which European country has the lowest population density?",
+    "answers": [
+      "Norway",
+      "Finland",
+      "Iceland",
+      "Sweden"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Iceland has about 3.6 people per km² — the lowest in Europe."
+  },
+  {
+    "id": "q_433",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is unique about Nauru as a country?",
+    "answers": [
+      "No capital city",
+      "No military",
+      "World's smallest island nation",
+      "World's least visited country"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Nauru has no official capital — it's the world's only country without a capital city."
+  },
+  {
+    "id": "q_434",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest per-capita carbon emitter?",
+    "answers": [
+      "USA",
+      "Australia",
+      "China",
+      "Qatar"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Qatar emits about 35 tonnes of CO₂ per person per year — the world's highest per capita."
+  },
+  {
+    "id": "q_435",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries have French as an official language?",
+    "answers": [
+      "21",
+      "25",
+      "29",
+      "33"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "French is an official language in 29 countries — more countries than any language except English."
+  },
+  {
+    "id": "q_436",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the highest rate of internet usage?",
+    "answers": [
+      "South Korea",
+      "Japan",
+      "UK",
+      "Iceland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Iceland has near 100% internet penetration — the highest in the world."
+  },
+  {
+    "id": "q_437",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country in the Americas where the majority religion is not Christianity?",
+    "answers": [
+      "Cuba",
+      "Brazil",
+      "Guyana",
+      "Suriname"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Suriname has a plurality Hindu population (~27%) with significant Muslim (~20%) and Christian communities."
+  },
+  {
+    "id": "q_438",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's largest methane reserves?",
+    "answers": [
+      "Saudi Arabia",
+      "Qatar",
+      "Russia",
+      "Iran"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Russia has the world's largest natural gas (methane) reserves at about 38 trillion cubic metres."
+  },
+  {
+    "id": "q_439",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries are in the United Nations?",
+    "answers": [
+      "185",
+      "193",
+      "196",
+      "201"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The UN has 193 member states as of 2011 (when South Sudan joined)."
+  },
+  {
+    "id": "q_440",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which is the world's least visited country?",
+    "answers": [
+      "Nauru",
+      "Tuvalu",
+      "Kiribati",
+      "San Marino"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Nauru receives fewer than 200 tourists per year — the world's least visited country."
+  },
+  {
+    "id": "q_441",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most UNESCO Intangible Cultural Heritage items?",
+    "answers": [
+      "Japan",
+      "France",
+      "India",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China has the most UNESCO Intangible Cultural Heritage inscriptions."
+  },
+  {
+    "id": "q_442",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the smallest country in Asia by area?",
+    "answers": [
+      "Bahrain",
+      "Singapore",
+      "Maldives",
+      "Brunei"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Maldives is the smallest Asian country at 298 km² and also the lowest-lying country in the world."
+  },
+  {
+    "id": "q_443",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most pyramids in the world?",
+    "answers": [
+      "Egypt",
+      "Mexico",
+      "Peru",
+      "Sudan"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sudan has between 200-255 pyramids — more than Egypt, though they are smaller."
+  },
+  {
+    "id": "q_444",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country was the first to give women the right to vote?",
+    "answers": [
+      "Sweden",
+      "Norway",
+      "USA",
+      "New Zealand"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "New Zealand became the first self-governing country to grant women the right to vote, in 1893."
+  },
+  {
+    "id": "q_445",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the deepest point in the Mediterranean Sea?",
+    "answers": [
+      "Strait of Messina",
+      "Adriatic Deep",
+      "Calypso Deep",
+      "Ionian Abyss"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Calypso Deep in the Ionian Sea reaches 5,267m — the deepest point in the Mediterranean."
+  },
+  {
+    "id": "q_446",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the highest percentage of renewable energy in its electricity mix?",
+    "answers": [
+      "Denmark",
+      "Norway",
+      "Iceland",
+      "Germany"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Iceland generates about 100% of its electricity from renewables (geothermal and hydro)."
+  },
+  {
+    "id": "q_447",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country whose name in English ends in a vowel 'a' after an island?",
+    "answers": [
+      "Jamaica",
+      "India",
+      "Nigeria",
+      "Australia"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Jamaica ends with 'a' and is an island. Many countries end in 'a' — the island qualifier is the trick."
+  },
+  {
+    "id": "q_448",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's oldest national anthem?",
+    "answers": [
+      "UK",
+      "France",
+      "Spain",
+      "Netherlands"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Wilhelmus (Netherlands) dates from around 1568-1572 — the world's oldest national anthem."
+  },
+  {
+    "id": "q_449",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most natural lakes?",
+    "answers": [
+      "Russia",
+      "USA",
+      "Brazil",
+      "Canada"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Canada has about 879,800 lakes — more than any other country, about 60% of the world's lakes."
+  },
+  {
+    "id": "q_450",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's most biodiverse country?",
+    "answers": [
+      "Congo",
+      "Australia",
+      "Indonesia",
+      "Brazil"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Brazil is considered the world's most biodiverse country, home to 20% of all species on Earth."
+  },
+  {
+    "id": "q_451",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most volcanoes?",
+    "answers": [
+      "Philippines",
+      "Japan",
+      "Iceland",
+      "Indonesia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Indonesia has over 130 active volcanoes on the Pacific Ring of Fire."
+  },
+  {
+    "id": "q_452",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the highest recorded temperature ever on Earth?",
+    "answers": [
+      "52°C in India",
+      "54.4°C in California",
+      "56.7°C in Libya",
+      "58°C in Kuwait"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "56.7°C (134°F) was recorded at Furnace Creek, Death Valley, California on 10 July 1913."
+  },
+  {
+    "id": "q_453",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's largest navy?",
+    "answers": [
+      "Russia",
+      "Japan",
+      "UK",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China surpassed the US Navy in total number of ships around 2020."
+  },
+  {
+    "id": "q_454",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What percentage of Earth's fresh water is in Antarctica?",
+    "answers": [
+      "60%",
+      "70%",
+      "80%",
+      "Over 60%"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Antarctica holds approximately 70% of the world's fresh water in its ice sheets."
+  },
+  {
+    "id": "q_455",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has produced the most Nobel Prize winners per capita?",
+    "answers": [
+      "USA",
+      "UK",
+      "Switzerland",
+      "Sweden"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Sweden has won more Nobel Prizes per capita than any other country."
+  },
+  {
+    "id": "q_456",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the only country that begins and ends with the same letter?",
+    "answers": [
+      "Algeria",
+      "Armenia",
+      "Albania",
+      "Both a and c"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Armenia begins and ends with 'a'. So does Algeria, Albania, and several others — but Armenia is a common answer."
+  },
+  {
+    "id": "q_457",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most border crossings with other nations?",
+    "answers": [
+      "China",
+      "Russia",
+      "Brazil",
+      "India"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "China has 14 land borders — tied with Russia for the most, but has more formal border crossings."
+  },
+  {
+    "id": "q_458",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "In which country is the world's longest road tunnel?",
+    "answers": [
+      "Norway",
+      "Switzerland",
+      "Japan",
+      "Austria"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "The Laerdal Tunnel in Norway is 24.5 km long — the world's longest road tunnel, opened in 2000."
+  },
+  {
+    "id": "q_459",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's tallest building?",
+    "answers": [
+      "China",
+      "Saudi Arabia",
+      "Malaysia",
+      "UAE"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Burj Khalifa in Dubai, UAE, is 828m tall — the world's tallest building since 2010."
+  },
+  {
+    "id": "q_460",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How long is the Great Wall of China?",
+    "answers": [
+      "5,000 km",
+      "8,850 km",
+      "13,170 km",
+      "21,196 km"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "All sections of the Great Wall total about 21,196 km according to a 2012 Chinese survey."
+  },
+  {
+    "id": "q_461",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country is home to the world's largest coral reef?",
+    "answers": [
+      "Philippines",
+      "Indonesia",
+      "Australia",
+      "Brazil"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Great Barrier Reef off Queensland, Australia, is the world's largest coral reef system at 2,300 km."
+  },
+  {
+    "id": "q_462",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the name of the world's largest hot desert?",
+    "answers": [
+      "Arabian Desert",
+      "Gobi Desert",
+      "Namib Desert",
+      "Sahara Desert"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Sahara covers 9.2 million km² across North Africa — the world's largest hot desert."
+  },
+  {
+    "id": "q_463",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most medals at the Summer Olympics (all time)?",
+    "answers": [
+      "Russia/USSR",
+      "China",
+      "Germany",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USA leads the all-time Olympic medals table with over 2,600 total medals."
+  },
+  {
+    "id": "q_464",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What fraction of the world's countries are in the southern hemisphere?",
+    "answers": [
+      "About 1/4",
+      "About 1/3",
+      "About 1/2",
+      "About 2/3"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "About one-third of the world's countries are primarily in the southern hemisphere."
+  },
+  {
+    "id": "q_465",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most coastline per km² of land area?",
+    "answers": [
+      "Norway",
+      "Canada",
+      "Greece",
+      "Norway"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Norway has 83,281 km of coastline (including fjords) relative to its land area — the most per km² of land."
+  },
+  {
+    "id": "q_466",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's highest homicide rate?",
+    "answers": [
+      "Mexico",
+      "Honduras",
+      "El Salvador",
+      "Jamaica"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Honduras has had one of the world's highest homicide rates in recent years."
+  },
+  {
+    "id": "q_467",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has never been to war?",
+    "answers": [
+      "Iceland",
+      "Switzerland",
+      "Liechtenstein",
+      "Sweden"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Liechtenstein has not been involved in a war since 1866 and actually disbanded its army after that."
+  },
+  {
+    "id": "q_468",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries are there in the ASEAN bloc?",
+    "answers": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "ASEAN has 10 member states: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam."
+  },
+  {
+    "id": "q_469",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which is the only country to have left the European Union?",
+    "answers": [
+      "Norway",
+      "Iceland",
+      "United Kingdom",
+      "Switzerland"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The United Kingdom left the EU on 31 January 2020 — the only country ever to do so."
+  },
+  {
+    "id": "q_470",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's most expensive real estate per square metre?",
+    "answers": [
+      "Singapore",
+      "UK",
+      "Hong Kong",
+      "Monaco"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Monaco has the world's most expensive real estate at over $60,000 per m²."
+  },
+  {
+    "id": "q_471",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's oldest capital city?",
+    "answers": [
+      "Cairo",
+      "Jerusalem",
+      "Athens",
+      "Damascus"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Damascus has been continuously inhabited for over 10,000 years — widely considered the world's oldest capital."
+  },
+  {
+    "id": "q_472",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most non-resident Indian population?",
+    "answers": [
+      "UK",
+      "Canada",
+      "USA",
+      "UAE"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The USA has the world's largest Indian diaspora, though UAE has the highest as a percentage of its population."
+  },
+  {
+    "id": "q_473",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the name of the sea that borders Sweden, Finland, and the Baltic states?",
+    "answers": [
+      "North Sea",
+      "Barents Sea",
+      "Baltic Sea",
+      "Kattegat"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Baltic Sea is a brackish sea, bordered by Sweden, Finland, Estonia, Latvia, Lithuania, Poland, Germany, and Denmark."
+  },
+  {
+    "id": "q_474",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's largest mangrove forest?",
+    "answers": [
+      "India",
+      "Myanmar",
+      "Colombia",
+      "Bangladesh"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Sundarbans in Bangladesh (and India) is the world's largest mangrove forest."
+  },
+  {
+    "id": "q_475",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's most isolated capital city?",
+    "answers": [
+      "Reykjavík",
+      "Wellington",
+      "Canberra",
+      "Suva"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Wellington, New Zealand, is considered the world's most isolated capital from other major capitals."
+  },
+  {
+    "id": "q_476",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most active nuclear power plants?",
+    "answers": [
+      "France",
+      "Japan",
+      "Russia",
+      "USA"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USA has 93 operational nuclear reactors — more than any other country."
+  },
+  {
+    "id": "q_477",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries make up the United Kingdom?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The UK is made up of 4 countries: England, Scotland, Wales, and Northern Ireland."
+  },
+  {
+    "id": "q_478",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which is the least densely populated country in the world?",
+    "answers": [
+      "Australia",
+      "Iceland",
+      "Greenland",
+      "Mongolia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Mongolia has about 2 people per km² — the world's least densely populated sovereign nation."
+  },
+  {
+    "id": "q_479",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country built the first commercial nuclear power plant?",
+    "answers": [
+      "USA",
+      "France",
+      "Germany",
+      "USSR"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The USSR built the world's first commercial nuclear power plant at Obninsk in 1954."
+  },
+  {
+    "id": "q_480",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the official name of Libya?",
+    "answers": [
+      "Republic of Libya",
+      "Socialist Libya",
+      "State of Libya",
+      "Great Socialist People's Libyan Arab Jamahiriya"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Since 2011, Libya's official name has been 'State of Libya'."
+  },
+  {
+    "id": "q_481",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country consumes the most coffee per capita?",
+    "answers": [
+      "Brazil",
+      "Italy",
+      "USA",
+      "Finland"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Finland consumes about 12 kg of coffee per person per year — the highest in the world."
+  },
+  {
+    "id": "q_482",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's highest rate of vegetarianism?",
+    "answers": [
+      "Germany",
+      "UK",
+      "USA",
+      "India"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "India has the world's highest vegetarianism rate — about 30-40% of the population."
+  },
+  {
+    "id": "q_483",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which body of water has the highest salt concentration?",
+    "answers": [
+      "Red Sea",
+      "Dead Sea",
+      "Caspian Sea",
+      "Great Salt Lake"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "The Dead Sea has about 34% salinity — about 10x saltier than the ocean."
+  },
+  {
+    "id": "q_484",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's longest national anthem by duration?",
+    "answers": [
+      "Greece",
+      "China",
+      "Russia",
+      "Uruguay"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Uruguay's national anthem is about 6 minutes long when performed in full — the world's longest."
+  },
+  {
+    "id": "q_485",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country is home to the world's largest stadium?",
+    "answers": [
+      "USA",
+      "India",
+      "North Korea",
+      "China"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Rungrado 1st of May Stadium in Pyongyang, North Korea, holds 114,000 people."
+  },
+  {
+    "id": "q_486",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the name of the geographic line dividing North and South Korea?",
+    "answers": [
+      "38th Parallel",
+      "39th Parallel",
+      "DMZ Line",
+      "Han River Line"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "The Korean Demilitarised Zone (DMZ) runs roughly along the 38th Parallel North."
+  },
+  {
+    "id": "q_487",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country is the world's largest producer of rubber?",
+    "answers": [
+      "Malaysia",
+      "Indonesia",
+      "Vietnam",
+      "Thailand"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Thailand produces about 37% of the world's natural rubber."
+  },
+  {
+    "id": "q_488",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which two countries share the world's largest freshwater lake?",
+    "answers": [
+      "Canada and USA",
+      "Russia and Finland",
+      "Russia and Kazakhstan",
+      "Russia and China"
+    ],
+    "correct": 0,
+    "inputType": "mc",
+    "note": "Lake Superior, the world's largest freshwater lake by surface area, is shared by Canada and the USA."
+  },
+  {
+    "id": "q_489",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries does the Tropic of Cancer pass through?",
+    "answers": [
+      "11",
+      "13",
+      "16",
+      "17"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "The Tropic of Cancer passes through 16 countries including Mexico, India, China, and several in Africa."
+  },
+  {
+    "id": "q_490",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most World Heritage Sites in Asia?",
+    "answers": [
+      "Japan",
+      "India",
+      "Iran",
+      "China"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "China has 57 UNESCO World Heritage Sites — the most in Asia."
+  },
+  {
+    "id": "q_491",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's most visited national park?",
+    "answers": [
+      "Yellowstone (USA)",
+      "Yosemite (USA)",
+      "Great Smoky Mountains (USA)",
+      "Banff (Canada)"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Great Smoky Mountains National Park in Tennessee/North Carolina receives about 12 million visitors annually."
+  },
+  {
+    "id": "q_492",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the highest percentage of women in parliament?",
+    "answers": [
+      "Sweden",
+      "Denmark",
+      "Norway",
+      "Rwanda"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Rwanda leads the world with about 61% women in parliament."
+  },
+  {
+    "id": "q_493",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the deepest lake in Africa?",
+    "answers": [
+      "Lake Victoria",
+      "Lake Malawi",
+      "Lake Tanganyika",
+      "Lake Turkana"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Lake Tanganyika is 1,470m deep — the second deepest lake in the world after Baikal."
+  },
+  {
+    "id": "q_494",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which is the smallest country in the Americas?",
+    "answers": [
+      "Grenada",
+      "Barbados",
+      "Saint Kitts and Nevis",
+      "Antigua and Barbuda"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "Saint Kitts and Nevis covers just 261 km² — the smallest country in the Americas."
+  },
+  {
+    "id": "q_495",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the highest average IQ according to global studies?",
+    "answers": [
+      "South Korea",
+      "Japan",
+      "Singapore",
+      "China"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Japan consistently scores highest in international studies, alongside Singapore and South Korea."
+  },
+  {
+    "id": "q_496",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "How many countries border the Mediterranean Sea?",
+    "answers": [
+      "17",
+      "19",
+      "21",
+      "22"
+    ],
+    "correct": 2,
+    "inputType": "mc",
+    "note": "21 countries have Mediterranean coastlines across Southern Europe, North Africa, and the Middle East."
+  },
+  {
+    "id": "q_497",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country was formerly known as Persia?",
+    "answers": [
+      "Iraq",
+      "Turkey",
+      "Afghanistan",
+      "Iran"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Iran was known as Persia to the Western world until 1935 when Reza Shah asked nations to use 'Iran'."
+  },
+  {
+    "id": "q_498",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "What is the world's largest river by volume of water discharged?",
+    "answers": [
+      "Yangtze",
+      "Congo",
+      "Mississippi",
+      "Amazon"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "The Amazon discharges about 20% of all river water that flows into the world's oceans."
+  },
+  {
+    "id": "q_499",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the world's highest average age at death?",
+    "answers": [
+      "Switzerland",
+      "Japan",
+      "Australia",
+      "Singapore"
+    ],
+    "correct": 1,
+    "inputType": "mc",
+    "note": "Japan has the world's highest life expectancy and consistently leads in longevity statistics."
+  },
+  {
+    "id": "q_500",
+    "category": "Challenge",
+    "difficulty": "hard",
+    "question": "Which country has the most land borders it shares with others — tied for first place with China?",
+    "answers": [
+      "India",
+      "Kazakhstan",
+      "Brazil",
+      "Russia"
+    ],
+    "correct": 3,
+    "inputType": "mc",
+    "note": "Russia and China both share land borders with 14 countries — more than any other nation."
+  }
+]
