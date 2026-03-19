@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+<!-- Primary SEO -->
+<title>GeoDay — The Daily Geography Quiz</title>
+<meta name="description" content="Test your world knowledge every day. Flags, capitals, borders, currencies and more — one free game per day. How far can you go?">
+<meta name="keywords" content="geography quiz, daily geography game, world quiz, country quiz, capitals quiz, flags quiz, geography challenge">
+<meta name="author" content="GeoDay">
+<link rel="canonical" href="https://geoday.io">
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp previews) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://geoday.io">
+<meta property="og:title" content="GeoDay — The Daily Geography Quiz">
+<meta property="og:description" content="One free geography quiz every day. How far can you go before your 3 lives run out?">
+<meta property="og:image" content="https://geoday.io/og-image.png">
+<meta property="og:site_name" content="GeoDay">
+
+<!-- Twitter / X card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://geoday.io">
+<meta name="twitter:title" content="GeoDay — The Daily Geography Quiz">
+<meta name="twitter:description" content="One free geography quiz every day. How far can you go before your 3 lives run out?">
+<meta name="twitter:image" content="https://geoday.io/og-image.png">
+
+<!-- Browser chrome colour on mobile -->
+<meta name="theme-color" content="#06080f">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700;9..144,900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ── DESIGN DIRECTION: editorial luxury meets night-sky depth ─────────────
+   Fraunces (variable optical-size serif) for all display text — cinematic
+   DM Sans for all UI chrome — clean, unassuming
+   Palette: deep space navy + warm gold + crisp white
+   Motion: one entrance reveal per screen, subtle micro-interactions only
+─────────────────────────────────────────────────────────────────────── */
+:root{
+  --ink:#f5f0e8;--ink2:#a09880;--ink3:#5a5244;
+  --gold:#e8a020;--gold-l:#f5c855;--gold-d:#9a6510;
+  --bg:#06080f;--bg2:#0c1020;--bg3:#111828;--bg4:#182030;
+  --border:rgba(232,160,32,.15);--border2:rgba(232,160,32,.35);
+  --ok:#3ecf8e;--bad:#f55050;
+  --r:14px;--r2:20px;
+  --ease:cubic-bezier(.22,.8,.38,1);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html{font-size:16px;}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;overflow-x:hidden;}
+
+/* starfield */
+body::before{content:'';position:fixed;inset:0;
+  background-image:radial-gradient(circle,rgba(255,255,255,.7) 1px,transparent 1px),
+  radial-gradient(circle,rgba(255,255,255,.4) 1px,transparent 1px),
+  radial-gradient(circle,rgba(255,255,255,.25) 1px,transparent 1px);
+  background-size:400px 400px,220px 220px,110px 110px;
+  background-position:0 0,80px 60px,40px 110px;
+  opacity:.18;pointer-events:none;z-index:0;}
+body::after{content:'';position:fixed;inset:0;
+  background:radial-gradient(ellipse 120% 60% at 50% 0%,rgba(10,20,60,.95) 0%,transparent 70%),
+  radial-gradient(ellipse 80% 50% at 0% 100%,rgba(5,10,35,.8) 0%,transparent 60%);
+  pointer-events:none;z-index:0;}
+
+#app{position:relative;z-index:1;max-width:480px;margin:0 auto;min-height:100vh;display:flex;flex-direction:column;}
+
+/* ── SCREENS ─ */
+.screen{display:none;flex-direction:column;flex:1;padding:20px 20px 100px;gap:18px;animation:fadeUp .4s var(--ease) both;}
+.screen.active{display:flex;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+
+/* ── TYPOGRAPHY ─ */
+.display{font-family:'Fraunces',serif;font-optical-sizing:auto;line-height:1.1;}
+.serif{font-family:'Fraunces',serif;font-optical-sizing:auto;}
+
+/* ── HOME SCREEN ─ */
+.home-hero{text-align:center;padding:32px 0 8px;}
+.home-globe{font-size:52px;display:block;margin-bottom:14px;animation:float 4s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
+.home-title{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(42px,10vw,64px);letter-spacing:-2px;line-height:.95;
+  background:linear-gradient(145deg,var(--gold-l) 0%,var(--gold) 50%,var(--gold-d) 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.home-sub{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3);margin-top:8px;font-weight:500;}
+
+/* streak + plays card */
+.status-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.status-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;}
+.sc-label{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink3);margin-bottom:5px;font-weight:500;}
+.sc-value{font-family:'Fraunces',serif;font-size:28px;font-weight:700;color:var(--ink);line-height:1;}
+.sc-value.gold{color:var(--gold);}
+.sc-sub{font-size:11px;color:var(--ink3);margin-top:3px;}
+
+/* play button */
+.play-btn{font-family:'Fraunces',serif;font-weight:700;font-size:20px;letter-spacing:1px;
+  padding:20px;width:100%;border:none;border-radius:var(--r2);cursor:pointer;
+  background:linear-gradient(135deg,var(--gold-d),var(--gold),var(--gold-l),var(--gold));
+  background-size:250% 250%;animation:shimmer 4s ease infinite;
+  color:var(--bg);box-shadow:0 8px 32px rgba(232,160,32,.3);
+  transition:transform .15s,box-shadow .15s;}
+.play-btn:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(232,160,32,.4);}
+.play-btn:active{transform:translateY(0);}
+@keyframes shimmer{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.play-btn.used{background:var(--bg4);color:var(--ink3);box-shadow:none;cursor:default;animation:none;border:1px solid var(--border);}
+.play-btn.used:hover{transform:none;box-shadow:none;}
+
+/* upgrade strip */
+.upgrade-strip{background:linear-gradient(135deg,var(--bg3),var(--bg4));border:1px solid var(--border2);
+  border-radius:var(--r);padding:14px 16px;cursor:pointer;transition:border-color .2s;display:flex;align-items:center;gap:12px;}
+.upgrade-strip:hover{border-color:var(--gold);}
+.us-icon{font-size:22px;flex-shrink:0;}
+.us-text{flex:1;}
+.us-title{font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--gold);}
+.us-sub{font-size:11px;color:var(--ink3);margin-top:1px;}
+.us-price{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:var(--ink);white-space:nowrap;}
+
+/* ── BOTTOM NAV ─ */
+.bnav{background:rgba(6,8,15,.92);backdrop-filter:blur(12px);border-top:1px solid var(--border);
+  display:flex;padding:10px 0 env(safe-area-inset-bottom,14px);
+  position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;z-index:50;}
+.ni{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;padding:3px;transition:opacity .15s;}
+.ni:hover{opacity:.75;}
+.ni-icon{font-size:20px;}
+.ni-label{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);font-weight:500;}
+.ni.act .ni-label{color:var(--gold);}
+.ni.act .ni-icon{filter:drop-shadow(0 0 5px rgba(232,160,32,.6));}
+
+/* ── GAME SCREEN ─ */
+.game-top{display:flex;align-items:center;justify-content:space-between;padding:4px 0;}
+.back-btn{width:36px;height:36px;border-radius:10px;background:var(--bg3);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px;color:var(--ink);
+  flex-shrink:0;transition:border-color .2s;}
+.back-btn:hover{border-color:var(--border2);}
+.game-q-label{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);font-weight:500;text-align:center;}
+.game-score-val{font-family:'Fraunces',serif;font-size:22px;font-weight:700;color:var(--gold);text-align:right;}
+
+/* timer */
+.timer-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:12px 16px;
+  display:flex;align-items:center;gap:14px;}
+.tring{position:relative;width:48px;height:48px;flex-shrink:0;}
+.tring svg{transform:rotate(-90deg);}
+.tring circle{fill:none;stroke-width:4;stroke-linecap:round;}
+.tc-bg{stroke:rgba(255,255,255,.06);}
+.tc-fg{stroke:var(--gold);stroke-dasharray:126;stroke-dashoffset:0;transition:stroke-dashoffset 1s linear,stroke .4s;}
+.tnum{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;font-size:14px;font-weight:700;}
+.tbar-outer{flex:1;height:4px;background:rgba(255,255,255,.05);border-radius:2px;overflow:hidden;}
+.tbar-inner{height:100%;border-radius:2px;transition:width 1s linear;}
+.pts-now{text-align:right;}
+.pts-val{font-family:'Fraunces',serif;font-size:20px;font-weight:700;color:var(--gold);}
+.pts-lbl{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);}
+
+/* lives */
+.lives-row{display:flex;align-items:center;gap:4px;font-size:15px;}
+
+/* question card */
+.q-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r2);padding:22px;flex:1;
+  display:flex;flex-direction:column;gap:14px;}
+.q-badge{display:inline-flex;align-items:center;gap:6px;font-size:10px;letter-spacing:2px;
+  text-transform:uppercase;color:var(--gold);padding:3px 10px;border:1px solid var(--border2);
+  border-radius:20px;background:rgba(232,160,32,.06);width:fit-content;font-weight:500;}
+.q-text{font-family:'Fraunces',serif;font-size:clamp(17px,4vw,22px);font-weight:400;
+  line-height:1.4;color:var(--ink);}
+.flag-display{font-size:64px;text-align:center;padding:6px 0;}
+
+/* MC answers */
+.mc-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.a-btn{background:var(--bg4);border:1px solid var(--border);border-radius:12px;padding:12px 14px;
+  cursor:pointer;display:flex;align-items:flex-start;gap:9px;color:var(--ink);
+  font-family:'DM Sans',sans-serif;transition:all .12s;text-align:left;}
+.a-btn:hover:not(:disabled){border-color:var(--border2);background:rgba(232,160,32,.05);}
+.a-btn:disabled{cursor:default;}
+.a-btn.correct{border-color:var(--ok);background:rgba(62,207,142,.08);color:var(--ok);}
+.a-btn.wrong{border-color:var(--bad);background:rgba(245,80,80,.06);color:var(--bad);opacity:.6;}
+.a-btn.reveal{border-color:var(--ok);background:rgba(62,207,142,.08);color:var(--ok);}
+.a-letter{font-family:'Fraunces',serif;font-size:13px;font-weight:600;color:var(--gold);min-width:18px;padding-top:1px;flex-shrink:0;}
+.a-btn.correct .a-letter,.a-btn.reveal .a-letter{color:var(--ok);}
+.a-btn.wrong .a-letter{color:var(--bad);}
+.a-text{font-size:13px;line-height:1.35;}
+
+/* text input */
+.t-input-wrap{display:flex;flex-direction:column;gap:8px;}
+.t-input{width:100%;padding:14px 16px;background:var(--bg4);border:1px solid var(--border);
+  border-radius:12px;color:var(--ink);font-family:'DM Sans',sans-serif;font-size:16px;outline:none;
+  transition:border-color .2s;}
+.t-input:focus{border-color:var(--gold);}
+.t-input.correct{border-color:var(--ok);background:rgba(62,207,142,.06);}
+.t-input.wrong{border-color:var(--bad);background:rgba(245,80,80,.05);}
+.t-submit{padding:12px 24px;font-family:'Fraunces',serif;font-size:14px;font-weight:600;
+  letter-spacing:1px;background:var(--gold);color:var(--bg);border:none;border-radius:10px;
+  cursor:pointer;transition:all .15s;width:fit-content;}
+.t-submit:hover{background:var(--gold-l);}
+.t-submit:disabled{opacity:.4;cursor:default;}
+
+/* feedback */
+.feedback{padding:10px 14px;border-radius:10px;font-size:13px;line-height:1.5;display:none;}
+.feedback.show{display:block;}
+.feedback.correct{background:rgba(62,207,142,.08);color:var(--ok);border:1px solid rgba(62,207,142,.2);}
+.feedback.wrong{background:rgba(245,80,80,.07);color:#ff9090;border:1px solid rgba(245,80,80,.2);}
+
+/* action bar */
+.action-row{display:flex;gap:8px;}
+.quit-btn{padding:10px 18px;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:12px;
+  font-weight:500;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;
+  background:transparent;border:1px solid rgba(255,255,255,.1);color:var(--ink3);transition:all .2s;}
+.quit-btn:hover{border-color:rgba(255,255,255,.25);color:var(--ink);}
+.next-btn{padding:10px 24px;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:12px;
+  font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;
+  background:var(--gold);color:var(--bg);border:none;transition:all .15s;display:none;}
+.next-btn:hover{background:var(--gold-l);}
+.next-btn.show{display:block;}
+
+/* ── RESULT SCREEN ─ */
+#result-screen{align-items:center;justify-content:center;text-align:center;gap:16px;}
+.result-icon{font-size:64px;animation:pop .5s var(--ease);}
+@keyframes pop{from{transform:scale(.2);opacity:0;}to{transform:scale(1);opacity:1;}}
+.result-title{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(28px,7vw,48px);
+  letter-spacing:-1px;color:var(--gold);}
+.result-mode{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3);font-weight:500;}
+.result-score-box{background:var(--bg3);border:1px solid var(--border2);border-radius:var(--r2);
+  padding:24px 40px;box-shadow:0 0 40px rgba(232,160,32,.1);width:100%;max-width:300px;}
+.result-pts{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(44px,10vw,72px);
+  letter-spacing:-2px;background:linear-gradient(135deg,var(--gold-l),var(--gold));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.result-pts-lbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink3);margin-top:2px;}
+.result-stats{display:flex;gap:10px;width:100%;}
+.rs{flex:1;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:12px;}
+.rs-val{font-family:'Fraunces',serif;font-size:24px;font-weight:700;color:var(--gold);}
+.rs-lbl{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);margin-top:2px;}
+.xp-row{font-size:13px;color:var(--ok);background:rgba(62,207,142,.07);
+  border:1px solid rgba(62,207,142,.18);border-radius:8px;padding:8px 16px;letter-spacing:.5px;}
+
+/* SHARE CARD */
+.share-section{width:100%;display:flex;flex-direction:column;gap:10px;}
+.share-label{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink3);font-weight:500;}
+.share-card{background:linear-gradient(135deg,#0a0e1c,#101828,#0a0e1c);
+  border:1px solid var(--border2);border-radius:var(--r2);padding:22px 24px;
+  position:relative;overflow:hidden;}
+.share-card::before{content:'';position:absolute;top:-40px;right:-40px;width:160px;height:160px;
+  background:radial-gradient(circle,rgba(232,160,32,.12),transparent 70%);pointer-events:none;}
+.share-card::after{content:'';position:absolute;bottom:-20px;left:-20px;width:120px;height:120px;
+  background:radial-gradient(circle,rgba(100,150,255,.06),transparent 70%);pointer-events:none;}
+.sc-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+.sc-brand{font-family:'Fraunces',serif;font-size:16px;font-weight:700;color:var(--gold);letter-spacing:1px;}
+.sc-date{font-size:10px;color:var(--ink3);letter-spacing:1px;}
+.sc-main{display:flex;align-items:flex-end;gap:16px;margin-bottom:14px;}
+.sc-pts-big{font-family:'Fraunces',serif;font-weight:900;font-size:52px;letter-spacing:-2px;
+  background:linear-gradient(135deg,var(--gold-l),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1;}
+.sc-pts-lbl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-bottom:8px;}
+.sc-divider{width:1px;height:52px;background:var(--border);flex-shrink:0;}
+.sc-right{display:flex;flex-direction:column;gap:6px;}
+.sc-stat{display:flex;flex-direction:column;}
+.sc-stat-val{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:var(--ink);}
+.sc-stat-lbl{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);}
+.sc-streak{display:flex;align-items:center;gap:6px;background:rgba(232,160,32,.08);
+  border:1px solid var(--border);border-radius:8px;padding:6px 12px;width:fit-content;}
+.sc-streak-num{font-family:'Fraunces',serif;font-size:16px;font-weight:700;color:var(--gold);}
+.sc-streak-lbl{font-size:10px;color:var(--ink3);letter-spacing:1px;}
+.sc-tagline{font-family:'Fraunces',serif;font-style:italic;font-size:12px;color:var(--ink3);margin-top:10px;}
+
+.share-btn{padding:12px 20px;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:12px;
+  font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;
+  background:var(--bg4);border:1px solid var(--border2);color:var(--ink);transition:all .2s;width:100%;}
+.share-btn:hover{border-color:var(--gold);color:var(--gold);}
+
+.result-btns{display:flex;gap:8px;width:100%;}
+.r-play-again{flex:1;padding:13px;font-family:'Fraunces',serif;font-size:15px;font-weight:600;
+  border:none;border-radius:var(--r);cursor:pointer;
+  background:linear-gradient(135deg,var(--gold-d),var(--gold),var(--gold-l));
+  color:var(--bg);transition:transform .15s;}
+.r-play-again:hover{transform:scale(1.02);}
+.r-home{padding:13px 20px;border-radius:var(--r);font-family:'DM Sans',sans-serif;font-size:12px;
+  font-weight:500;letter-spacing:1px;cursor:pointer;background:transparent;
+  border:1px solid rgba(255,255,255,.12);color:var(--ink3);transition:all .2s;}
+.r-home:hover{border-color:rgba(255,255,255,.25);color:var(--ink);}
+
+/* ── LEADERBOARD ─ */
+.lb-tabs{display:flex;background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:4px;gap:2px;}
+.lb-tab{flex:1;padding:8px 4px;text-align:center;font-size:11px;letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--ink3);cursor:pointer;border-radius:10px;
+  transition:all .15s;font-weight:500;}
+.lb-tab.active{background:var(--gold);color:var(--bg);font-weight:600;}
+.lb-tab:hover:not(.active){color:var(--ink);}
+
+.lb-list{display:flex;flex-direction:column;gap:6px;}
+.lb-item{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);
+  padding:12px 16px;display:flex;align-items:center;gap:12px;transition:border-color .15s;}
+.lb-item.me{border-color:var(--border2);background:rgba(232,160,32,.04);}
+.lb-item:hover{border-color:rgba(255,255,255,.12);}
+.lb-rank{font-family:'Fraunces',serif;font-size:15px;font-weight:700;color:var(--ink3);min-width:24px;text-align:center;}
+.lb-rank.top{color:var(--gold);}
+.lb-rank.medal-1{color:#ffd700;}
+.lb-rank.medal-2{color:#c0c0c0;}
+.lb-rank.medal-3{color:#cd7f32;}
+.lb-avatar{width:34px;height:34px;border-radius:50%;background:var(--bg4);border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
+.lb-info{flex:1;min-width:0;}
+.lb-name{font-size:14px;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.lb-meta{font-size:11px;color:var(--ink3);margin-top:1px;}
+.lb-score{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:var(--gold);text-align:right;}
+.lb-score-lbl{font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);text-align:right;}
+.lb-you-tag{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);
+  padding:1px 6px;border:1px solid var(--border2);border-radius:6px;flex-shrink:0;}
+
+/* your position callout */
+.your-pos{background:var(--bg3);border:1px solid var(--border2);border-radius:var(--r);
+  padding:14px 16px;display:flex;align-items:center;gap:12px;}
+.yp-rank{font-family:'Fraunces',serif;font-size:32px;font-weight:900;color:var(--gold);min-width:44px;}
+.yp-info{flex:1;}
+.yp-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);font-weight:500;}
+.yp-name{font-size:15px;font-weight:500;color:var(--ink);margin-top:1px;}
+.yp-score{font-family:'Fraunces',serif;font-size:20px;font-weight:700;color:var(--gold);}
+
+/* upgrade modal */
+.modal-overlay{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.88);display:none;
+  align-items:center;justify-content:center;padding:20px;}
+.modal-overlay.show{display:flex;}
+.modal-box{background:var(--bg3);border:1px solid var(--border2);border-radius:var(--r2);
+  padding:32px 28px;text-align:center;max-width:340px;width:100%;
+  animation:pop .35s var(--ease);box-shadow:0 0 60px rgba(232,160,32,.15);}
+.modal-icon{font-size:48px;margin-bottom:14px;}
+.modal-title{font-family:'Fraunces',serif;font-size:26px;font-weight:800;color:var(--gold);margin-bottom:6px;}
+.modal-sub{font-size:13px;color:var(--ink3);line-height:1.6;margin-bottom:20px;}
+.modal-features{list-style:none;text-align:left;margin-bottom:22px;display:flex;flex-direction:column;gap:7px;}
+.modal-features li{font-size:13px;color:var(--ink2);display:flex;gap:8px;}
+.modal-features li span:first-child{color:var(--ok);flex-shrink:0;}
+.modal-cta{font-family:'Fraunces',serif;font-size:16px;font-weight:700;padding:14px 28px;
+  border:none;border-radius:50px;cursor:pointer;width:100%;margin-bottom:10px;
+  background:linear-gradient(135deg,var(--gold-d),var(--gold),var(--gold-l));
+  color:var(--bg);box-shadow:0 4px 20px rgba(232,160,32,.3);transition:transform .15s;}
+.modal-cta:hover{transform:scale(1.02);}
+.modal-close{font-size:12px;color:var(--ink3);cursor:pointer;text-decoration:underline;}
+
+/* ── STATS SCREEN ─ */
+.stat-hero{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r2);padding:22px;text-align:center;}
+.stat-hero-num{font-family:'Fraunces',serif;font-weight:900;font-size:56px;letter-spacing:-2px;color:var(--gold);}
+.stat-hero-lbl{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3);margin-top:2px;}
+.stat-pct-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.sp-box{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:16px;text-align:center;}
+.sp-pct{font-family:'Fraunces',serif;font-size:32px;font-weight:700;letter-spacing:-1px;}
+.sp-pct.ok{color:var(--ok);}
+.sp-pct.bad{color:var(--bad);}
+.sp-lbl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);margin-top:3px;font-weight:500;}
+.split-bar{height:8px;border-radius:4px;overflow:hidden;display:flex;background:rgba(255,255,255,.04);}
+.split-ok{background:var(--ok);transition:width .7s var(--ease);}
+.split-bad{background:var(--bad);transition:width .7s var(--ease);}
+.stat-section-lbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink3);font-weight:500;padding:0 2px;}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.05);}
+.stat-row:last-child{border-bottom:none;}
+.stat-row-lbl{font-size:13px;color:var(--ink2);}
+.stat-row-val{font-family:'Fraunces',serif;font-size:16px;font-weight:600;color:var(--ink);}
+
+/* map section */
+.map-wrap{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r2);padding:18px;}
+.map-title{font-family:'Fraunces',serif;font-size:15px;font-weight:600;color:var(--gold);margin-bottom:14px;letter-spacing:.5px;}
+.cont-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;}
+.cg-item{background:var(--bg4);border:1px solid var(--border);border-radius:10px;padding:10px 12px;display:flex;align-items:center;gap:10px;}
+.cg-em{font-size:18px;flex-shrink:0;}
+.cg-info{flex:1;}
+.cg-name{font-size:12px;color:var(--ink2);font-weight:500;}
+.cg-pct{font-family:'Fraunces',serif;font-size:16px;font-weight:700;margin-top:1px;}
+.cg-bar{height:3px;background:rgba(255,255,255,.07);border-radius:2px;overflow:hidden;margin-top:4px;}
+.cg-fill{height:100%;border-radius:2px;transition:width .7s var(--ease);}
+
+/* subtle section divider */
+.section-lbl{font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:var(--ink3);font-weight:500;padding:2px 2px 0;}
+
+@media(max-width:380px){.mc-grid{grid-template-columns:1fr;}.share-card{padding:16px 18px;}.sc-pts-big{font-size:42px;}}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- ════════════════ HOME ════════════════ -->
+<div id="home" class="screen active">
+  <div class="home-hero">
+    <span class="home-globe">🌍</span>
+    <div class="home-title">GeoDay</div>
+    <div class="home-sub">The daily geography challenge</div>
+  </div>
+
+  <div class="status-row">
+    <div class="status-card">
+      <div class="sc-label">Day Streak</div>
+      <div class="sc-value gold">🔥 4</div>
+      <div class="sc-sub">days in a row</div>
+    </div>
+    <div class="status-card">
+      <div class="sc-label">Today's Play</div>
+      <div class="sc-value" id="home-plays-val">1 left</div>
+      <div class="sc-sub" id="home-plays-sub">resets midnight</div>
+    </div>
+  </div>
+
+  <button class="play-btn" id="play-btn" onclick="startGame()">PLAY TODAY'S GAME</button>
+
+  <div class="upgrade-strip" onclick="showUpgrade()">
+    <div class="us-icon">⭐</div>
+    <div class="us-text">
+      <div class="us-title">Unlimited plays</div>
+      <div class="us-sub">Never run out — play as many rounds as you want</div>
+    </div>
+    <div class="us-price">€2.99<span style="font-size:11px;color:var(--ink3)">/yr</span></div>
+  </div>
+
+  <div class="section-lbl">Today's leaderboard</div>
+
+  <div class="lb-list" id="home-lb"></div>
+</div>
+
+<!-- ════════════════ GAME ════════════════ -->
+<div id="game" class="screen">
+  <div class="game-top">
+    <div class="back-btn" onclick="quitGame()">←</div>
+    <div>
+      <div class="game-q-label">Question <span id="g-qnum">1</span></div>
+      <div class="lives-row" id="g-lives">❤️❤️❤️</div>
+    </div>
+    <div>
+      <div class="game-score-val" id="g-score">0</div>
+    </div>
+  </div>
+
+  <div class="timer-card">
+    <div class="tring">
+      <svg width="48" height="48" viewBox="0 0 48 48">
+        <circle class="tc-bg" cx="24" cy="24" r="20"/>
+        <circle class="tc-fg" id="t-circle" cx="24" cy="24" r="20"/>
+      </svg>
+      <div class="tnum" id="t-num">60</div>
+    </div>
+    <div class="tbar-outer"><div class="tbar-inner" id="t-bar" style="width:100%"></div></div>
+    <div class="pts-now">
+      <div class="pts-val" id="t-pts">1,000</div>
+      <div class="pts-lbl">potential pts</div>
+    </div>
+  </div>
+
+  <div class="q-card" id="q-card">
+    <div class="q-badge" id="q-badge">Geography</div>
+    <div id="q-flag"></div>
+    <div class="q-text" id="q-text">Loading…</div>
+    <div class="mc-grid" id="q-mc"></div>
+    <div class="t-input-wrap" id="q-tw" style="display:none">
+      <input class="t-input" id="q-ti" type="text" placeholder="Type your answer…" autocomplete="off"/>
+      <button class="t-submit" id="q-sub" onclick="submitText()">Submit answer</button>
+    </div>
+    <div class="feedback" id="q-fb"></div>
+  </div>
+
+  <div class="action-row">
+    <button class="quit-btn" onclick="quitGame()">✕ Quit</button>
+    <button class="next-btn" id="q-next" onclick="nextQ()">Next question →</button>
+  </div>
+</div>
+
+<!-- ════════════════ RESULT ════════════════ -->
+<div id="result" class="screen">
+  <div class="result-icon" id="r-icon">🌍</div>
+  <div class="result-title" id="r-title">Well played!</div>
+  <div class="result-mode">Classic Mode</div>
+
+  <div class="result-score-box">
+    <div class="result-pts" id="r-pts">0</div>
+    <div class="result-pts-lbl">Points scored</div>
+  </div>
+
+  <div class="result-stats">
+    <div class="rs"><div class="rs-val" id="r-cor">0</div><div class="rs-lbl">Correct</div></div>
+    <div class="rs"><div class="rs-val" id="r-wrg">0</div><div class="rs-lbl">Wrong</div></div>
+    <div class="rs"><div class="rs-val" id="r-qs">0</div><div class="rs-lbl">Questions</div></div>
+  </div>
+
+  <div class="xp-row" id="r-xp">+80 XP earned · Streak: 5 🔥</div>
+
+  <!-- SHARE CARD -->
+  <div class="share-section">
+    <div class="share-label">Your result card — share it</div>
+    <div class="share-card" id="share-card">
+      <div class="sc-header">
+        <div class="sc-brand">🌍 GeoDay</div>
+        <div class="sc-date" id="sc-date">—</div>
+      </div>
+      <div class="sc-main">
+        <div>
+          <div class="sc-pts-big" id="sc-pts">0</div>
+          <div class="sc-pts-lbl">points</div>
+        </div>
+        <div class="sc-divider"></div>
+        <div class="sc-right">
+          <div class="sc-stat">
+            <div class="sc-stat-val" id="sc-qs">0 Qs</div>
+            <div class="sc-stat-lbl">answered</div>
+          </div>
+          <div class="sc-stat">
+            <div class="sc-stat-val" id="sc-acc">0%</div>
+            <div class="sc-stat-lbl">accuracy</div>
+          </div>
+        </div>
+      </div>
+      <div class="sc-streak">
+        <div class="sc-streak-num" id="sc-streak">🔥 5</div>
+        <div class="sc-streak-lbl">day streak</div>
+      </div>
+      <div class="sc-tagline" id="sc-tagline">Can you beat this?</div>
+    </div>
+    <button class="share-btn" onclick="shareResult()">📤 Share this card</button>
+  </div>
+
+  <div class="result-btns">
+    <button class="r-play-again" onclick="goHome()">Back to home</button>
+    <button class="r-home" onclick="nav('leaderboard','n-lb')">View leaderboard</button>
+  </div>
+</div>
+
+<!-- ════════════════ LEADERBOARD ════════════════ -->
+<div id="leaderboard" class="screen">
+  <div style="padding:4px 0 6px;">
+    <div style="font-family:'Fraunces',serif;font-size:24px;font-weight:800;letter-spacing:-1px;color:var(--ink);">Leaderboard</div>
+    <div style="font-size:11px;color:var(--ink3);margin-top:2px;letter-spacing:1px;">How do you stack up?</div>
+  </div>
+
+  <div class="lb-tabs">
+    <div class="lb-tab active" onclick="setTab(this,'daily')">Daily</div>
+    <div class="lb-tab" onclick="setTab(this,'weekly')">Weekly</div>
+    <div class="lb-tab" onclick="setTab(this,'monthly')">Monthly</div>
+    <div class="lb-tab" onclick="setTab(this,'yearly')">Yearly</div>
+  </div>
+
+  <div class="your-pos">
+    <div class="yp-rank" id="yp-rank">#12</div>
+    <div class="yp-info">
+      <div class="yp-label">Your position</div>
+      <div class="yp-name">Guest Player</div>
+    </div>
+    <div>
+      <div class="yp-score" id="yp-score">4,850</div>
+      <div style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink3);text-align:right;">pts</div>
+    </div>
+  </div>
+
+  <div class="lb-list" id="lb-list"></div>
+</div>
+
+<!-- ════════════════ STATS ════════════════ -->
+<div id="stats" class="screen">
+  <div style="padding:4px 0 4px;">
+    <div style="font-family:'Fraunces',serif;font-size:24px;font-weight:800;letter-spacing:-1px;">Your stats</div>
+  </div>
+
+  <div class="stat-hero">
+    <div class="stat-hero-num" id="s-total">247</div>
+    <div class="stat-hero-lbl">Questions answered all time</div>
+  </div>
+
+  <div class="stat-pct-row">
+    <div class="sp-box">
+      <div class="sp-pct ok" id="s-ok">73%</div>
+      <div class="sp-lbl">Correct</div>
+    </div>
+    <div class="sp-box">
+      <div class="sp-pct bad" id="s-bad">27%</div>
+      <div class="sp-lbl">Wrong / Timeout</div>
+    </div>
+  </div>
+
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:14px 16px;">
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--ink3);margin-bottom:7px;letter-spacing:1.5px;text-transform:uppercase;font-weight:500;">
+      <span>Correct</span><span>Wrong</span>
+    </div>
+    <div class="split-bar">
+      <div class="split-ok" id="s-bar-ok" style="width:73%"></div>
+      <div class="split-bad" id="s-bar-bad" style="width:27%"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--ink3);margin-top:6px;">
+      <span id="s-cor-abs">180 correct</span>
+      <span id="s-wrg-abs">67 wrong</span>
+    </div>
+  </div>
+
+  <div class="section-lbl">Records</div>
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:4px 16px;">
+    <div class="stat-row"><div class="stat-row-lbl">Best score ever</div><div class="stat-row-val">12,400 pts</div></div>
+    <div class="stat-row"><div class="stat-row-lbl">Best streak</div><div class="stat-row-val">🔥 18 days</div></div>
+    <div class="stat-row"><div class="stat-row-lbl">Games played</div><div class="stat-row-val">34</div></div>
+    <div class="stat-row"><div class="stat-row-lbl">Total XP</div><div class="stat-row-val">2,470 XP</div></div>
+    <div class="stat-row"><div class="stat-row-lbl">Avg score / game</div><div class="stat-row-val">4,210 pts</div></div>
+  </div>
+
+  <div class="section-lbl">Knowledge by region</div>
+  <div class="map-wrap">
+    <div class="map-title">Regional accuracy</div>
+    <svg viewBox="0 0 460 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;border-radius:10px;overflow:hidden;">
+      <rect width="460" height="220" fill="#0a1020"/>
+      <path d="M50,38 L118,34 L133,52 L128,85 L108,105 L83,124 L63,119 L43,96 L35,72 Z" fill="rgba(62,207,142,.28)" stroke="rgba(62,207,142,.55)" stroke-width="1.3"/>
+      <text x="84" y="76" text-anchor="middle" font-size="8" fill="rgba(100,240,170,.85)" font-family="DM Sans,sans-serif" letter-spacing="0.3">N. America</text>
+      <text x="84" y="88" text-anchor="middle" font-size="10" fill="#3ecf8e" font-family="Fraunces,serif" font-weight="700">68%</text>
+      <path d="M88,138 L118,133 L128,148 L126,186 L113,205 L97,201 L83,183 L78,158 Z" fill="rgba(59,130,246,.25)" stroke="rgba(59,130,246,.5)" stroke-width="1.3"/>
+      <text x="103" y="172" text-anchor="middle" font-size="8" fill="rgba(100,160,255,.85)" font-family="DM Sans,sans-serif" letter-spacing="0.3">S. America</text>
+      <text x="103" y="184" text-anchor="middle" font-size="10" fill="#93c5fd" font-family="Fraunces,serif" font-weight="700">44%</text>
+      <path d="M196,26 L238,24 L248,44 L243,66 L222,74 L197,69 L188,50 Z" fill="rgba(232,160,32,.3)" stroke="rgba(232,160,32,.55)" stroke-width="1.3"/>
+      <text x="218" y="50" text-anchor="middle" font-size="8" fill="rgba(245,200,80,.9)" font-family="DM Sans,sans-serif">Europe</text>
+      <text x="218" y="62" text-anchor="middle" font-size="10" fill="#f5c855" font-family="Fraunces,serif" font-weight="700">81%</text>
+      <path d="M192,88 L234,83 L246,107 L244,154 L228,173 L207,176 L188,157 L181,126 L185,101 Z" fill="rgba(251,146,60,.24)" stroke="rgba(251,146,60,.48)" stroke-width="1.3"/>
+      <text x="214" y="133" text-anchor="middle" font-size="8" fill="rgba(255,180,80,.85)" font-family="DM Sans,sans-serif">Africa</text>
+      <text x="214" y="145" text-anchor="middle" font-size="10" fill="#fb923c" font-family="Fraunces,serif" font-weight="700">52%</text>
+      <path d="M258,20 L362,18 L376,40 L385,72 L370,92 L338,100 L300,92 L264,80 L250,56 Z" fill="rgba(168,85,247,.24)" stroke="rgba(168,85,247,.48)" stroke-width="1.3"/>
+      <text x="318" y="60" text-anchor="middle" font-size="8" fill="rgba(196,148,255,.85)" font-family="DM Sans,sans-serif">Asia</text>
+      <text x="318" y="72" text-anchor="middle" font-size="10" fill="#d8b4fe" font-family="Fraunces,serif" font-weight="700">61%</text>
+      <path d="M258,103 L294,98 L301,120 L294,140 L272,144 L256,131 Z" fill="rgba(236,72,153,.22)" stroke="rgba(236,72,153,.44)" stroke-width="1.3"/>
+      <text x="278" y="125" text-anchor="middle" font-size="7" fill="rgba(240,130,190,.85)" font-family="DM Sans,sans-serif">M.East</text>
+      <text x="278" y="136" text-anchor="middle" font-size="9" fill="#f9a8d4" font-family="Fraunces,serif" font-weight="700">39%</text>
+      <path d="M340,138 L382,132 L392,155 L382,172 L353,176 L337,163 Z" fill="rgba(62,207,142,.18)" stroke="rgba(62,207,142,.38)" stroke-width="1.3"/>
+      <text x="364" y="157" text-anchor="middle" font-size="7" fill="rgba(100,220,160,.85)" font-family="DM Sans,sans-serif">Oceania</text>
+      <text x="364" y="168" text-anchor="middle" font-size="9" fill="#86efac" font-family="Fraunces,serif" font-weight="700">28%</text>
+      <text x="400" y="100" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.1)" font-family="DM Sans,sans-serif">Pacific</text>
+      <text x="155" y="90" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.1)" font-family="DM Sans,sans-serif">Atlantic</text>
+    </svg>
+    <div class="cont-grid">
+      <div class="cg-item"><div class="cg-em">🏛️</div><div class="cg-info"><div class="cg-name">Europe</div><div class="cg-pct" style="color:#f5c855">81%</div><div class="cg-bar"><div class="cg-fill" style="width:81%;background:var(--gold)"></div></div></div></div>
+      <div class="cg-item"><div class="cg-em">🌍</div><div class="cg-info"><div class="cg-name">N. America</div><div class="cg-pct" style="color:#3ecf8e">68%</div><div class="cg-bar"><div class="cg-fill" style="width:68%;background:var(--ok)"></div></div></div></div>
+      <div class="cg-item"><div class="cg-em">🌏</div><div class="cg-info"><div class="cg-name">Asia</div><div class="cg-pct" style="color:#d8b4fe">61%</div><div class="cg-bar"><div class="cg-fill" style="width:61%;background:#a855f7"></div></div></div></div>
+      <div class="cg-item"><div class="cg-em">🌍</div><div class="cg-info"><div class="cg-name">Africa</div><div class="cg-pct" style="color:#fb923c">52%</div><div class="cg-bar"><div class="cg-fill" style="width:52%;background:#f97316"></div></div></div></div>
+      <div class="cg-item"><div class="cg-em">🌎</div><div class="cg-info"><div class="cg-name">S. America</div><div class="cg-pct" style="color:#93c5fd">44%</div><div class="cg-bar"><div class="cg-fill" style="width:44%;background:#3b82f6"></div></div></div></div>
+      <div class="cg-item"><div class="cg-em">🏝️</div><div class="cg-info"><div class="cg-name">Oceania</div><div class="cg-pct" style="color:#86efac">28%</div><div class="cg-bar"><div class="cg-fill" style="width:28%;background:#16a34a"></div></div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bnav">
+  <div class="ni act" id="n-home" onclick="nav('home','n-home')"><div class="ni-icon">🏠</div><div class="ni-label">Home</div></div>
+  <div class="ni" id="n-lb" onclick="nav('leaderboard','n-lb')"><div class="ni-icon">🏆</div><div class="ni-label">Ranks</div></div>
+  <div class="ni" id="n-stats" onclick="nav('stats','n-stats')"><div class="ni-icon">📊</div><div class="ni-label">Stats</div></div>
+  <div class="ni" id="n-up" onclick="showUpgrade()"><div class="ni-icon">⭐</div><div class="ni-label">Unlimited</div></div>
+</div>
+
+<!-- UPGRADE MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <div class="modal-icon">⭐</div>
+    <div class="modal-title">Unlimited plays</div>
+    <div class="modal-sub">One small price. Play as many rounds as you want, every single day, forever.</div>
+    <ul class="modal-features">
+      <li><span>✓</span><span>Unlimited daily plays — no cap, ever</span></li>
+      <li><span>✓</span><span>Keep your streak alive with streak freezes</span></li>
+      <li><span>✓</span><span>Share your score card with friends</span></li>
+      <li><span>✓</span><span>Appear on the yearly leaderboard</span></li>
+      <li><span>✓</span><span>Support an independent game developer 🌍</span></li>
+    </ul>
+    <button class="modal-cta" onclick="closeModal()">Get unlimited — €2.99/year</button>
+    <div class="modal-close" onclick="closeModal()">Maybe later</div>
+  </div>
+</div>
+
+</div><!-- #app -->
+<script>
+// ═══════════════════════════════════════════════
+// QUESTION BANK — all input types guaranteed safe
+// ═══════════════════════════════════════════════
+const QB = [
+  {badge:'Capital city',text:'What is the capital of France?',answers:['Lyon','Marseille','Paris','Bordeaux'],correct:2,inputType:'mc',note:'Paris has been France\'s capital for over 1,000 years.'},
+  {badge:'Flag',text:'Which country\'s flag has a red circle on a white background?',answers:['South Korea','Japan','China','Singapore'],correct:1,inputType:'mc',note:'Japan\'s Nisshōki — the red sun disc — has been in use since the 7th century.'},
+  {badge:'Currency',text:'What currency is used in Japan?',answers:['Yuan','Won','Ringgit','Yen'],correct:3,inputType:'mc',note:'The Japanese Yen (¥) has been in use since 1871.'},
+  {badge:'Geography',text:'Which continent is Egypt on?',answers:['Asia','Europe','Oceania','Africa'],correct:3,inputType:'mc',note:'Egypt is in northeastern Africa, though the Sinai Peninsula touches Asia.'},
+  {badge:'Capital city',text:'What is the capital of Australia?',answers:['Sydney','Melbourne','Canberra','Brisbane'],correct:2,inputType:'mc',note:'Canberra became Australia\'s capital in 1913 as a compromise between Sydney and Melbourne.'},
+  {badge:'Flag colours',text:'What three colours appear on the Italian flag?',answers:['Red, White, Blue','Green, White, Red','Yellow, Black, Red','Blue, White, Green'],correct:1,inputType:'mc',note:'Italy\'s vertical tricolour: green, white, red — adopted in 1797.'},
+  {badge:'Geography',text:'Which ocean lies between Europe and North America?',answers:['Pacific','Arctic','Indian','Atlantic'],correct:3,inputType:'mc',note:'The Atlantic was named after the Titan Atlas in Greek mythology.'},
+  {badge:'Borders',text:'Which country does NOT share a land border with France?',answers:['Switzerland','Portugal','Belgium','Luxembourg'],correct:1,inputType:'mc',note:'Portugal only borders Spain. France has 8 land neighbours including Spain, Italy, and Germany.'},
+  {badge:'Languages',text:'How many official languages does Switzerland have?',answers:['1','2','3','4'],correct:3,inputType:'mc',note:'German, French, Italian, and Romansh — Switzerland is famously multilingual.'},
+  {badge:'Currency',text:'Which country uses the Złoty?',answers:['Czech Republic','Hungary','Poland','Slovakia'],correct:2,inputType:'mc',note:'The Polish Złoty (PLN) has been Poland\'s currency since 1924.'},
+  {badge:'Food & culture',text:'Injera — a sourdough flatbread used as both plate and utensil — originates from which country?',answers:['Nigeria','Morocco','Kenya','Ethiopia'],correct:3,inputType:'mc',note:'Injera is made from teff, a grain native to the Horn of Africa.'},
+  {badge:'Population',text:'Which European capital has the largest population?',answers:['Berlin','Paris','Madrid','Moscow'],correct:3,inputType:'mc',note:'Moscow has ~12 million city residents, making it Europe\'s most populous capital.'},
+  {badge:'Dial code',text:'Which country has the international dialling code +61?',answers:['New Zealand','Canada','Australia','South Africa'],correct:2,inputType:'mc',note:'+61 is Australia. New Zealand is +64, Canada is +1.'},
+  {badge:'Borders',text:'Which country borders BOTH China and India?',answers:['Myanmar','Nepal','Pakistan','Bhutan'],correct:1,inputType:'mc',note:'Nepal sits between China (Tibet) to the north and India to the south and west.'},
+  {badge:'Time zones',text:'Which country spans the most time zones in the world?',answers:['United States','Russia','France','China'],correct:2,inputType:'mc',note:'France spans 12 time zones due to its overseas territories — from French Polynesia to Réunion.'},
+  {badge:'Odd one out',text:'Three of these countries use the Euro. Which one does NOT?',answers:['Slovakia','Slovenia','Croatia','Serbia'],correct:3,inputType:'mc',note:'Serbia uses the Dinar. Slovakia (2009), Slovenia (2007), Croatia (2023) all use the Euro.'},
+  {badge:'Economy',text:'What is the dominant export sector of Saudi Arabia\'s economy?',answers:['Tourism','Financial services','Agriculture','Petroleum & petrochemicals'],correct:3,inputType:'mc',note:'Oil accounts for ~70% of Saudi Arabia\'s export earnings.'},
+  {badge:'National animal',text:'What is the national animal of Australia?',answers:['Wombat','Dingo','Kangaroo','Koala'],correct:2,inputType:'mc',note:'The red kangaroo appears on Australia\'s coat of arms alongside the emu.'},
+  {badge:'Capital city',text:'What is the capital of Brazil?',answers:['São Paulo','Rio de Janeiro','Salvador','Brasília'],correct:3,inputType:'mc',note:'Brasília replaced Rio de Janeiro as Brazil\'s capital in 1960.'},
+  {badge:'Flag colours',text:'What colour is the cross on Finland\'s flag?',answers:['White','Red','Black','Blue'],correct:3,inputType:'mc',note:'Finland\'s flag shows a blue Nordic cross on white — adopted in 1918.'},
+  {badge:'Capital city',text:'What is the capital of Kazakhstan?',answers:['Almaty','Astana','Shymkent','Aktobe'],correct:1,inputType:'mc',note:'Astana (formerly Nur-Sultan) has been Kazakhstan\'s capital since 1997.'},
+  {badge:'Borders',text:'How many countries does Germany border?',answers:['6','7','8','9'],correct:3,inputType:'mc',note:'Germany borders Denmark, Netherlands, Belgium, Luxembourg, France, Switzerland, Austria, Czech Republic, and Poland — 9 countries.'},
+  {badge:'Geography',text:'Which is the world\'s largest country by land area?',answers:['Canada','China','United States','Russia'],correct:3,inputType:'mc',note:'Russia covers 17.1 million km² — nearly twice the size of second-place Canada.'},
+  {badge:'Currency',text:'Which of these currencies is used in South Korea?',answers:['Yuan','Yen','Won','Baht'],correct:2,inputType:'mc',note:'The South Korean Won (KRW) has been used since 1945.'},
+  {badge:'Flag',text:'Which country\'s flag features a maple leaf?',answers:['Australia','New Zealand','Canada','United Kingdom'],correct:2,inputType:'mc',note:'Canada\'s red and white flag with a red maple leaf was adopted in 1965.'},
+  {badge:'Capital city',text:'Name the capital of Argentina.',answers:['Córdoba','Rosario','Montevideo','Buenos Aires'],correct:3,inputType:'mc',note:'Buenos Aires means "Fair Winds" in Spanish — founded in 1536.'},
+  {badge:'Geography',text:'What is the longest river in Africa?',answers:['Congo','Zambezi','Niger','Nile'],correct:3,inputType:'mc',note:'The Nile runs ~6,650 km through northeastern Africa to the Mediterranean.'},
+  {badge:'Dial code',text:'Which country has the dialling code +49?',answers:['Austria','Netherlands','Germany','Denmark'],correct:2,inputType:'mc',note:'+49 is Germany. Austria is +43, Netherlands is +31, Denmark is +45.'},
+  {badge:'Languages',text:'What is the official language of Brazil?',answers:['Spanish','French','English','Portuguese'],correct:3,inputType:'mc',note:'Brazil is the only Portuguese-speaking country in South America — a legacy of 1500 Portuguese colonisation.'},
+  {badge:'Borders',text:'Which country is completely surrounded by Italy?',answers:['Vatican City','Monaco','Liechtenstein','Andorra'],correct:0,inputType:'mc',note:'Vatican City is entirely enclosed within Rome — making Italy its only neighbour.'},
+];
+
+// ═══════════════════════════════════════
+// LEADERBOARD DATA (demo)
+// ═══════════════════════════════════════
+const LB_DATA = {
+  daily:[
+    {rank:1,name:'Aino K.',emoji:'🦁',score:9400,meta:'32 correct · 4 wrong',me:false},
+    {rank:2,name:'Mateus R.',emoji:'🦊',score:8750,meta:'30 correct · 5 wrong',me:false},
+    {rank:3,name:'Priya S.',emoji:'🐯',score:8200,meta:'28 correct · 6 wrong',me:false},
+    {rank:4,name:'Lars J.',emoji:'🦅',score:7600,meta:'26 correct · 7 wrong',me:false},
+    {rank:5,name:'Yuki T.',emoji:'🐼',score:6900,meta:'24 correct · 8 wrong',me:false},
+    {rank:12,name:'You',emoji:'🌍',score:4850,meta:'18 correct · 8 wrong',me:true},
+  ],
+  weekly:[
+    {rank:1,name:'Priya S.',emoji:'🐯',score:52400,meta:'18 games · avg 2,911',me:false},
+    {rank:2,name:'Aino K.',emoji:'🦁',score:48100,meta:'17 games',me:false},
+    {rank:3,name:'Mateus R.',emoji:'🦊',score:44600,meta:'16 games',me:false},
+    {rank:4,name:'Lars J.',emoji:'🦅',score:39200,meta:'14 games',me:false},
+    {rank:5,name:'Sofia M.',emoji:'🦋',score:35800,meta:'13 games',me:false},
+    {rank:9,name:'You',emoji:'🌍',score:19400,meta:'7 games this week',me:true},
+  ],
+  monthly:[
+    {rank:1,name:'Lars J.',emoji:'🦅',score:198000,meta:'72 games this month',me:false},
+    {rank:2,name:'Priya S.',emoji:'🐯',score:182000,meta:'68 games',me:false},
+    {rank:3,name:'Yuki T.',emoji:'🐼',score:166000,meta:'61 games',me:false},
+    {rank:4,name:'Aino K.',emoji:'🦁',score:154000,meta:'57 games',me:false},
+    {rank:5,name:'Tomás B.',emoji:'🦌',score:140000,meta:'51 games',me:false},
+    {rank:22,name:'You',emoji:'🌍',score:82000,meta:'30 games this month',me:true},
+  ],
+  yearly:[
+    {rank:1,name:'Yuki T.',emoji:'🐼',score:1840000,meta:'All-time champion',me:false},
+    {rank:2,name:'Lars J.',emoji:'🦅',score:1620000,meta:'Top performer',me:false},
+    {rank:3,name:'Priya S.',emoji:'🐯',score:1480000,meta:'',me:false},
+    {rank:4,name:'Aino K.',emoji:'🦁',score:1340000,meta:'',me:false},
+    {rank:5,name:'Mateus R.',emoji:'🦊',score:1210000,meta:'',me:false},
+    {rank:88,name:'You',emoji:'🌍',score:420000,meta:'',me:true},
+  ]
+};
+let curTab = 'daily';
+
+function renderLB(key, listId) {
+  const data = LB_DATA[key];
+  const container = document.getElementById(listId);
+  if(!container) return;
+  container.innerHTML = '';
+  data.forEach(row => {
+    const div = document.createElement('div');
+    div.className = 'lb-item' + (row.me ? ' me' : '');
+    const medals = {1:'medal-1',2:'medal-2',3:'medal-3'};
+    const rankCls = medals[row.rank] ? medals[row.rank] : (row.rank<=5?'top':'');
+    div.innerHTML = `
+      <div class="lb-rank ${rankCls}">${row.rank<=3?['🥇','🥈','🥉'][row.rank-1]:('#'+row.rank)}</div>
+      <div class="lb-avatar">${row.emoji}</div>
+      <div class="lb-info">
+        <div class="lb-name">${row.name}${row.me?' <span style="font-size:10px;color:var(--gold);opacity:.8">(you)</span>':''}</div>
+        ${row.meta?`<div class="lb-meta">${row.meta}</div>`:''}
+      </div>
+      <div>
+        <div class="lb-score">${row.score.toLocaleString()}</div>
+        <div class="lb-score-lbl">pts</div>
+      </div>`;
+    container.appendChild(div);
+  });
+}
+
+function setTab(el, key) {
+  document.querySelectorAll('.lb-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  curTab = key;
+  const me = LB_DATA[key].find(r=>r.me);
+  document.getElementById('yp-rank').textContent = '#' + (me?me.rank:'—');
+  document.getElementById('yp-score').textContent = me?me.score.toLocaleString():'—';
+  renderLB(key,'lb-list');
+}
+
+// ═══════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════
+const GAME_SCREENS = ['game','result'];
+function nav(screenId, navId) {
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(screenId).classList.add('active');
+  document.querySelector('.bnav').style.display = GAME_SCREENS.includes(screenId)?'none':'flex';
+  document.querySelectorAll('.ni').forEach(n=>n.classList.remove('act'));
+  if(navId) document.getElementById(navId)?.classList.add('act');
+  if(screenId==='leaderboard') {setTab(document.querySelector('.lb-tab.active')||document.querySelector('.lb-tab'),curTab);}
+}
+
+function goHome() { nav('home','n-home'); }
+function quitGame() { stopTimer(); nav('home','n-home'); }
+
+// ═══════════════════════════════════════
+// GAME STATE
+// ═══════════════════════════════════════
+let timerInt=null, timeLeft=0, answered=false, curQ=null;
+const GS = {score:0,correct:0,wrong:0,qIdx:0,lives:3};
+let playsUsed = false;
+
+function startGame() {
+  if(playsUsed){showUpgrade();return;}
+  Object.assign(GS,{score:0,correct:0,wrong:0,qIdx:0,lives:3});
+  answered=false;
+  nav('game',null);
+  document.querySelector('.bnav').style.display='none';
+  document.getElementById('g-score').textContent='0';
+  document.getElementById('g-qnum').textContent='1';
+  renderLives(3);
+  loadQ();
+}
+
+function loadQ() {
+  stopTimer();
+  answered=false;
+  const q = adaptiveQ(GS.correct);
+  curQ = q;
+
+  document.getElementById('q-badge').textContent = q.badge;
+  document.getElementById('q-text').textContent = q.text;
+  document.getElementById('q-flag').innerHTML = q.flag ? `<div class="flag-display">${q.flag}</div>` : '';
+  document.getElementById('q-fb').className = 'feedback';
+  document.getElementById('q-fb').textContent = '';
+  document.getElementById('q-next').classList.remove('show');
+
+  const mc = document.getElementById('q-mc');
+  const tw = document.getElementById('q-tw');
+
+  if(q.inputType === 'mc') {
+    mc.style.display = 'grid';
+    tw.style.display = 'none';
+    mc.innerHTML = '';
+    ['A','B','C','D'].forEach((l,i) => {
+      const b = document.createElement('button');
+      b.className = 'a-btn';
+      b.innerHTML = `<span class="a-letter">${l}</span><span class="a-text">${q.answers[i]}</span>`;
+      b.onclick = () => pickMC(i,b,q);
+      mc.appendChild(b);
+    });
+  } else {
+    mc.style.display = 'none';
+    tw.style.display = 'flex';
+    const inp = document.getElementById('q-ti');
+    const sub = document.getElementById('q-sub');
+    inp.value = '';
+    inp.className = 't-input';
+    inp.disabled = false;
+    sub.disabled = false;
+    inp.onkeydown = e => { if(e.key==='Enter') submitText(); };
+    setTimeout(()=>inp.focus(), 80);
+  }
+
+  startTimer();
+}
+
+function adaptiveQ(n) {
+  const pool = n < 20 ? QB : n < 50 ? QB.slice(7) : QB.slice(14);
+  return pool[Math.floor(Math.random()*pool.length)];
+}
+
+// ═══════════════════════════════════════
+// TIMER
+// ═══════════════════════════════════════
+function startTimer() {
+  stopTimer(); timeLeft = 60; updateTimer();
+  timerInt = setInterval(()=>{ timeLeft--; updateTimer(); if(timeLeft<=0){stopTimer();timeExpired();} }, 1000);
+}
+function stopTimer() { clearInterval(timerInt); timerInt=null; }
+function calcPts(t) { return Math.max(400, Math.min(1000, Math.round(400+600*(t/60)))); }
+
+function updateTimer() {
+  const pct = timeLeft/60, C = 2*Math.PI*20;
+  const circ = document.getElementById('t-circle');
+  if(circ){ circ.style.strokeDashoffset = C*(1-pct); circ.style.stroke = pct>.5?'#e8a020':pct>.25?'#f97316':'#f55050'; }
+  document.getElementById('t-num').textContent = timeLeft;
+  const bar = document.getElementById('t-bar');
+  if(bar){ bar.style.width=(pct*100)+'%'; bar.style.background=pct>.5?'linear-gradient(90deg,#9a6510,#e8a020)':pct>.25?'linear-gradient(90deg,#c2410c,#f97316)':'linear-gradient(90deg,#991b1b,#f55050)'; }
+  document.getElementById('t-pts').textContent = calcPts(timeLeft).toLocaleString();
+}
+
+function timeExpired() {
+  if(answered) return;
+  answered=true;
+  if(curQ && curQ.inputType==='mc') {
+    document.querySelectorAll('#q-mc .a-btn').forEach((b,i)=>{b.disabled=true;if(i===curQ.correct)b.classList.add('reveal');});
+  } else {
+    const inp=document.getElementById('q-ti'); if(inp) inp.disabled=true;
+    const sub=document.getElementById('q-sub'); if(sub) sub.disabled=true;
+  }
+  GS.wrong++;
+  showFB(false,curQ,0);
+  GS.lives--;
+  renderLives(GS.lives);
+  if(GS.lives<=0){ setTimeout(()=>endGame(),1400); return; }
+  document.getElementById('q-next').classList.add('show');
+}
+
+// ═══════════════════════════════════════
+// ANSWERS
+// ═══════════════════════════════════════
+function pickMC(idx,btn,q) {
+  if(answered) return;
+  answered=true; stopTimer();
+  const pts = calcPts(timeLeft);
+  document.querySelectorAll('#q-mc .a-btn').forEach(b=>b.disabled=true);
+  setTimeout(()=>{
+    if(idx===q.correct){
+      btn.classList.add('correct');
+      GS.score+=pts; GS.correct++;
+      document.getElementById('g-score').textContent = GS.score.toLocaleString();
+      showFB(true,q,pts);
+      document.getElementById('q-next').classList.add('show');
+    } else {
+      btn.classList.add('wrong');
+      document.querySelectorAll('#q-mc .a-btn')[q.correct].classList.add('reveal');
+      GS.wrong++;
+      showFB(false,q,0);
+      GS.lives--;
+      renderLives(GS.lives);
+      if(GS.lives<=0){setTimeout(()=>endGame(),1400);return;}
+      document.getElementById('q-next').classList.add('show');
+    }
+  },300);
+}
+
+function submitText() {
+  if(answered) return;
+  const inp = document.getElementById('q-ti');
+  const val = inp.value.trim().toLowerCase();
+  if(!val) return;
+  answered=true; stopTimer();
+  document.getElementById('q-sub').disabled=true;
+  inp.disabled=true;
+  const q=curQ, pts=calcPts(timeLeft);
+  const alts = q.alternates||[];
+  const isOk = q.correctAnswer?(val===q.correctAnswer||alts.includes(val)):alts.includes(val);
+  setTimeout(()=>{
+    inp.classList.add(isOk?'correct':'wrong');
+    if(isOk){
+      GS.score+=pts; GS.correct++;
+      document.getElementById('g-score').textContent=GS.score.toLocaleString();
+      showFB(true,q,pts);
+      document.getElementById('q-next').classList.add('show');
+    } else {
+      GS.wrong++;
+      showFB(false,q,0);
+      GS.lives--;
+      renderLives(GS.lives);
+      if(GS.lives<=0){setTimeout(()=>endGame(),1400);return;}
+      document.getElementById('q-next').classList.add('show');
+    }
+  },250);
+}
+
+function showFB(ok,q,pts) {
+  const fb = document.getElementById('q-fb');
+  if(!fb || !q) return;
+  let ca = q.inputType==='mc' ? q.answers[q.correct] : (q.correctAnswer||'');
+  if(ok){
+    fb.className='feedback correct show';
+    fb.textContent=`✓ Correct! +${pts.toLocaleString()} pts` + (q.note ? '  ·  '+q.note : '');
+  } else {
+    fb.className='feedback wrong show';
+    fb.textContent=(timeLeft<=0?'✗ Time\'s up!':'✗ Wrong answer.') + (ca?' Answer: '+ca:'') + (q.note?'  ·  '+q.note:'');
+  }
+}
+
+function renderLives(n) {
+  const el = document.getElementById('g-lives');
+  if(!el) return;
+  el.textContent = '❤️'.repeat(Math.max(0,n)) + '🖤'.repeat(Math.max(0,3-n));
+}
+
+function nextQ() {
+  GS.qIdx++;
+  document.getElementById('g-qnum').textContent = String(GS.qIdx+1);
+  document.getElementById('q-next').classList.remove('show');
+  loadQ();
+}
+
+// ═══════════════════════════════════════
+// END GAME
+// ═══════════════════════════════════════
+function endGame() {
+  stopTimer();
+  playsUsed = true;
+  updateHomePlays();
+
+  const won = GS.correct > GS.wrong;
+  document.getElementById('r-icon').textContent = GS.correct>=20?'🏆':won?'🌍':'💥';
+  document.getElementById('r-title').textContent = GS.correct>=20?'World class!':won?'Well played!':'Game over';
+  document.getElementById('r-pts').textContent = GS.score.toLocaleString();
+  document.getElementById('r-cor').textContent = GS.correct;
+  document.getElementById('r-wrg').textContent = GS.wrong;
+  document.getElementById('r-qs').textContent = GS.qIdx+1;
+  document.getElementById('r-xp').textContent = `+${GS.correct*10} XP earned · Streak: 5 🔥`;
+
+  // Share card
+  const today = new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'});
+  document.getElementById('sc-date').textContent = today;
+  document.getElementById('sc-pts').textContent = GS.score.toLocaleString();
+  document.getElementById('sc-qs').textContent = (GS.qIdx+1)+' Qs';
+  const acc = GS.qIdx+1>0?Math.round(100*GS.correct/(GS.qIdx+1)):0;
+  document.getElementById('sc-acc').textContent = acc+'%';
+  document.getElementById('sc-streak').textContent = '🔥 5';
+  const taglines = ['Can you beat this?','Geography master in the making 🗺️','The world is a quiz — are you ready?','Test your knowledge at GeoDay'];
+  document.getElementById('sc-tagline').textContent = taglines[Math.floor(Math.random()*taglines.length)];
+
+  // Update stats
+  updateStats(GS.correct, GS.wrong);
+  nav('result',null);
+  document.querySelector('.bnav').style.display='none';
+}
+
+function shareResult() {
+  const text = `🌍 GeoDay — ${new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short'})}\n\n${GS.score.toLocaleString()} points · ${GS.correct} correct · ${Math.round(100*GS.correct/Math.max(1,GS.qIdx+1))}% accuracy\n🔥 5 day streak\n\nCan you beat me? → geoday.io`;
+  if(navigator.share){navigator.share({title:'My GeoDay score',text});}
+  else {
+    navigator.clipboard.writeText(text).then(()=>{
+      const btn=document.querySelector('.share-btn');
+      btn.textContent='✓ Copied to clipboard!';
+      setTimeout(()=>btn.textContent='📤 Share this card',2000);
+    });
+  }
+}
+
+// ═══════════════════════════════════════
+// STATS (in-memory)
+// ═══════════════════════════════════════
+const STATS = {total:247,correct:180,wrong:67};
+function updateStats(c,w){
+  STATS.total+=c+w; STATS.correct+=c; STATS.wrong+=w;
+  const tot=STATS.total, pok=tot?Math.round(100*STATS.correct/tot):0, pbad=100-pok;
+  document.getElementById('s-total').textContent=tot.toLocaleString();
+  document.getElementById('s-ok').textContent=pok+'%';
+  document.getElementById('s-bad').textContent=pbad+'%';
+  const bok=document.getElementById('s-bar-ok'),bbad=document.getElementById('s-bar-bad');
+  if(bok)bok.style.width=pok+'%';
+  if(bbad)bbad.style.width=pbad+'%';
+  document.getElementById('s-cor-abs').textContent=STATS.correct.toLocaleString()+' correct';
+  document.getElementById('s-wrg-abs').textContent=STATS.wrong.toLocaleString()+' wrong';
+}
+
+// ═══════════════════════════════════════
+// HOME PLAYS + LEADERBOARD INIT
+// ═══════════════════════════════════════
+function updateHomePlays() {
+  const pv=document.getElementById('home-plays-val');
+  const ps=document.getElementById('home-plays-sub');
+  const pb=document.getElementById('play-btn');
+  if(playsUsed){
+    pv.textContent='0 left';
+    ps.textContent='upgrade for unlimited';
+    pb.className='play-btn used';
+    pb.textContent='PLAY USED — Upgrade for more';
+  }
+}
+
+// Home leaderboard (daily top 5)
+function renderHomeLB() {
+  const container=document.getElementById('home-lb'); if(!container) return;
+  container.innerHTML='';
+  LB_DATA.daily.slice(0,5).forEach(row=>{
+    const d=document.createElement('div');
+    d.className='lb-item'+(row.me?' me':'');
+    const medals=['🥇','🥈','🥉'];
+    d.innerHTML=`
+      <div class="lb-rank ${row.rank<=3?'medal-'+(row.rank):''}">${row.rank<=3?medals[row.rank-1]:'#'+row.rank}</div>
+      <div class="lb-avatar">${row.emoji}</div>
+      <div class="lb-info"><div class="lb-name">${row.name}</div></div>
+      <div><div class="lb-score">${row.score.toLocaleString()}</div></div>`;
+    container.appendChild(d);
+  });
+}
+
+// ═══════════════════════════════════════
+// UPGRADE MODAL
+// ═══════════════════════════════════════
+function showUpgrade(){document.getElementById('modal').classList.add('show');}
+function closeModal(){document.getElementById('modal').classList.remove('show');}
+
+// ═══════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════
+renderHomeLB();
+renderLB('daily','lb-list');
+</script>
+</body>
+</html>
